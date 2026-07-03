@@ -200,11 +200,20 @@ def parse_multi_format_date(col: Column) -> Column:
 # 4. Números com separador decimal BR e valores sentinela textuais
 # ---------------------------------------------------------------------------
 
+_NUMERIC_PATTERN = r"^-?\d+(\.\d+)?$"
+
+
 def parse_br_decimal_to_double(col: Column) -> Column:
     """Converte string com vírgula decimal BR ('1274,78') ou ponto ('1274.78') para double.
-    Aceita ambos os formatos, pois as fontes misturam os dois."""
+    Aceita ambos os formatos, pois as fontes misturam os dois.
+
+    Valida com regex *antes* de fazer `cast("double")`: em modo ANSI (padrão no Databricks
+    Serverless), `cast` lança exceção para uma string não-numérica (ex.: 'N/A') em vez de
+    retornar `null` — o `when(...)` do Spark só avalia o cast para as linhas que já passaram
+    na validação, evitando o erro (mesma classe de problema resolvida com `try_to_timestamp`
+    para datas)."""
     normalized = F.regexp_replace(F.trim(col.cast("string")), ",", ".")
-    return normalized.cast("double")
+    return F.when(normalized.rlike(_NUMERIC_PATTERN), normalized.cast("double"))
 
 
 def safe_cast_double(col: Column) -> Column:
