@@ -166,11 +166,17 @@ _DATETIME_FORMATS = [
 
 def _parse_with_roundtrip_validation(trimmed: Column, fmt: str) -> Column:
     """Faz o parse com `fmt` e só aceita o resultado se, ao formatar de volta com o mesmo
-    padrão, reproduzir exatamente a string original. Necessário porque `to_timestamp` do
-    Spark faz *rollover* silencioso de campos fora do intervalo (ex.: mês 13, dia 31 de
-    fevereiro) em vez de rejeitar — sem essa validação, '2025-13-40' viraria uma data válida
-    (mas errada) em vez de `null`."""
-    parsed = F.to_timestamp(trimmed, fmt)
+    padrão, reproduzir exatamente a string original. Necessário porque `to_timestamp` faz
+    *rollover* silencioso de campos fora do intervalo (ex.: mês 13, dia 31 de fevereiro) em
+    vez de rejeitar — sem essa validação, '2025-13-40' viraria uma data válida (mas errada)
+    em vez de `null`.
+
+    Usa `try_to_timestamp` (não `to_timestamp`): em modo ANSI — padrão no Databricks
+    Serverless e cada vez mais comum no Spark — `to_timestamp` lança exceção em formato
+    incompatível em vez de retornar `null`, o que quebraria o `coalesce` de múltiplos
+    formatos em `parse_multi_format_timestamp`. `try_to_timestamp` sempre retorna `null`
+    nesse caso, independente do modo ANSI estar ligado ou não."""
+    parsed = F.try_to_timestamp(trimmed, F.lit(fmt))
     reformatted = F.date_format(parsed, fmt)
     return F.when(parsed.isNotNull() & (reformatted == trimmed), parsed)
 
