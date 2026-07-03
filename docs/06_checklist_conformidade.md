@@ -37,7 +37,7 @@ depende de ação externa · ❌ não atendido.
 | **6.2** Transformações com Python/PySpark, podendo combinar com Spark SQL | ✅ | PySpark predominante; Spark SQL usado pontualmente (geração de `dim_data` via `sequence()`) |
 | **6.3** Modelagem analítica final (granularidade, entidades, relacionamentos, premissas) | ✅ | `docs/02` §4 + `docs/03` §1 |
 | **6.4** Qualidade de dados (investigação, tratamento, decisões documentadas e justificadas) | ✅ | `docs/01` completo, com "achado → impacto → tratamento" para as 9 fontes + 8 padrões transversais |
-| **6.5** Publicação no GitHub em repositório público | ❌ | Repositório Git **inicializado localmente** (`git init` + `.gitignore` prontos), mas **ainda não commitado nem publicado remotamente** — decisão explícita de deixar o commit/push para o usuário executar. **Ação pendente do seu lado.** |
+| **6.5** Publicação no GitHub em repositório público | ✅ | Publicado em [github.com/fabriciusrp/case-eng-dados-fabricius](https://github.com/fabriciusrp/case-eng-dados-fabricius) (público, branch `main`) |
 | **6.6** Documentação técnica (visão geral, premissas, problemas/tratamento, decisões, validações, limitações, sugestões) | ✅ | `docs/01`, `02`, `03`, `04` cobrem todos os subitens pedidos |
 | **6.7** Resumo executivo técnico (1-2 páginas OU 5-6 slides) | ✅ | `docs/04_resumo_executivo.md` (texto) **e** `docs/05_apresentacao.md` (slides) — as duas versões, mais completo que o mínimo pedido |
 
@@ -45,7 +45,7 @@ depende de ação externa · ❌ não atendido.
 
 | Item | Status | Evidência |
 |---|---|---|
-| Link do repositório GitHub com notebooks, documentação técnica, resumo executivo | ⚠️ | Conteúdo pronto; falta criar o repositório remoto e publicar (ver gap acima) |
+| Link do repositório GitHub com notebooks, documentação técnica, resumo executivo | ✅ | https://github.com/fabriciusrp/case-eng-dados-fabricius |
 | (Opcional) Diagrama da solução / desenho de camadas | ✅ | Diagramas em texto (ASCII) em `docs/02` §4 e `docs/05` slide 4 — suficiente para o nível de complexidade do case; pode ser substituído por um diagrama visual (draw.io/Excalidraw) se desejar um acabamento maior |
 | (Opcional) Explicação de evoluções possíveis | ✅ | `docs/04_resumo_executivo.md` §"Próximos passos recomendados" |
 | (Opcional) Observações sobre performance, governança ou reprocessamento | ✅ | `docs/02` §5 (limitações do Community Edition) e `docs/04` (Unity Catalog, incremental, DLT) |
@@ -54,10 +54,8 @@ depende de ação externa · ❌ não atendido.
 
 ## Gaps identificados (ação necessária do seu lado)
 
-1. **Publicação no GitHub (obrigatório, seção 6.5/9).** Preciso da sua confirmação explícita
-   para criar o repositório remoto e fazer push — não farei isso sem você pedir diretamente,
-   por ser uma ação pública e difícil de reverter. Quando quiser, me avise que eu preparo o
-   commit inicial e, se você quiser que eu publique, faço o `git remote add` + `push`.
+1. ~~Publicação no GitHub~~ — **concluído.** Repositório público em
+   https://github.com/fabriciusrp/case-eng-dados-fabricius, branch `main`, 26 arquivos.
 2. **Execução real no Databricks Community Edition (recomendado, seção 6.1).** Os notebooks
    foram validados linha a linha com PySpark + Delta Lake reais neste ambiente local (não é
    simulação), mas o case pede especificamente o Databricks Community Edition como ambiente
@@ -65,5 +63,6 @@ depende de ação externa · ❌ não atendido.
    sequência antes da entrega final, para confirmar que não há nenhuma particularidade do
    workspace (versão de runtime, permissões de schema) que exija ajuste. O `README.md` já tem
    o passo a passo.
-Fora esses dois pontos, que dependem de ação sua com suas próprias contas (GitHub e
-Databricks), **todos os demais itens do PDF estão atendidos**.
+
+Fora esse último ponto — que depende da sua conta do Databricks e de rodar a pipeline lá —,
+**todos os demais itens do PDF estão atendidos**.

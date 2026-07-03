@@ -99,4 +99,4 @@ Todas obtidas com consultas diretas sobre `gold.*`, sem retrabalho.
 4. **Modelar `metadata` de ocorrências:** hoje preservado cru, sem pergunta de negócio que o exija ainda
 5. **Qualidade contínua:** evoluir os testes atuais para Delta Live Tables com expectations declarativas
 
-**Repositório:** notebooks, testes e documentação completa disponíveis no GitHub.
+**Repositório:** https://github.com/fabriciusrp/case-eng-dados-fabricius

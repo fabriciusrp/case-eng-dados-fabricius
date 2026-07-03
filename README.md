@@ -6,6 +6,8 @@ aninhado, NDJSON, TXT pipe-delimited e Excel) em uma base analítica confiável,
 consumo direto por um Analista de BI, usando **PySpark** e **Delta Lake** no
 **Databricks Community Edition**.
 
+**Repositório:** https://github.com/fabriciusrp/case-eng-dados-fabricius
+
 ## Sumário executivo
 
 - **Fontes:** cadastro de produtos, pedidos (cabeçalho + itens), vendedores, canais, regiões,
