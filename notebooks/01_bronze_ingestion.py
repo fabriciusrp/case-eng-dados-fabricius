@@ -20,7 +20,21 @@ from utils import get_or_create_spark, get_base_path  # noqa: E402
 
 spark = get_or_create_spark()
 BASE_PATH = get_base_path()
-SOURCE_PATH = os.environ.get("CASE_DE_SOURCE_PATH", "dbfs:/FileStore/case_de/sources")
+# Padrão aponta para Workspace Files (/Workspace/...), não DBFS root: muitos workspaces
+# recentes (incluindo o usado para validar esta entrega) vêm com o DBFS público desabilitado
+# por padrão — Workspace Files é o caminho recomendado atualmente pela própria Databricks.
+SOURCE_PATH = os.environ.get("CASE_DE_SOURCE_PATH", "file:/Workspace/Shared/case_de/sources")
+
+
+def to_local_path(path: str) -> str:
+    """Converte uma URI `file:...` (usada pelo Spark) no caminho de sistema de arquivos
+    equivalente (usado por `pandas.read_excel`). Trata tanto `file:///C:/...` (Windows local)
+    quanto `file:/Workspace/...` (Databricks Workspace Files)."""
+    for prefix in ("file:///", "file://", "file:"):
+        if path.startswith(prefix):
+            return path[len(prefix):]
+    return path
+
 
 print(f"BASE_PATH  = {BASE_PATH}")
 print(f"SOURCE_PATH = {SOURCE_PATH}")
@@ -149,11 +163,7 @@ write_bronze(df_ocorrencias, "ocorrencias", "atendimento_ocorrencias.ndjson")
 
 import pandas as pd
 
-_local_canais_path = f"/dbfs/FileStore/case_de/sources/comercial_canais.xlsx"
-if SOURCE_PATH.startswith("file://") or os.environ.get("CASE_DE_SOURCE_PATH"):
-    _local_canais_path = SOURCE_PATH.replace("file:///", "").replace("file://", "") + "/comercial_canais.xlsx"
-
-pdf_canais = pd.read_excel(_local_canais_path)
+pdf_canais = pd.read_excel(f"{to_local_path(SOURCE_PATH)}/comercial_canais.xlsx")
 df_canais = spark.createDataFrame(pdf_canais)
 write_bronze(df_canais, "canais", "comercial_canais.xlsx")
 
@@ -164,11 +174,7 @@ write_bronze(df_canais, "canais", "comercial_canais.xlsx")
 
 # COMMAND ----------
 
-_local_clientes_path = f"/dbfs/FileStore/case_de/sources/crm_clientes_export.xlsx"
-if SOURCE_PATH.startswith("file://") or os.environ.get("CASE_DE_SOURCE_PATH"):
-    _local_clientes_path = SOURCE_PATH.replace("file:///", "").replace("file://", "") + "/crm_clientes_export.xlsx"
-
-pdf_clientes = pd.read_excel(_local_clientes_path)
+pdf_clientes = pd.read_excel(f"{to_local_path(SOURCE_PATH)}/crm_clientes_export.xlsx")
 df_clientes = spark.createDataFrame(pdf_clientes)
 write_bronze(df_clientes, "clientes", "crm_clientes_export.xlsx")
 
