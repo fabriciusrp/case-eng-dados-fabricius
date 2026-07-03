@@ -12,6 +12,10 @@
 
 # COMMAND ----------
 
+# MAGIC %pip install openpyxl
+
+# COMMAND ----------
+
 import os
 import sys
 
