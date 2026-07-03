@@ -12,7 +12,14 @@
 import os
 import sys
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)) if "__file__" in dir() else ".")
+try:
+    # Databricks: o notebook não tem `__file__`; deriva o próprio diretório a partir do
+    # caminho do notebook no workspace (também montado localmente em /Workspace/...).
+    _notebook_path = dbutils.notebook.entry_point.getDbutils().notebook().getContext().notebookPath().get()  # noqa: F821
+    sys.path.append("/Workspace" + os.path.dirname(_notebook_path))
+except NameError:
+    # Execução local (fora do Databricks): usa o diretório do próprio arquivo .py
+    sys.path.append(os.path.dirname(os.path.abspath(__file__)) if "__file__" in dir() else ".")
 from utils import DQ_NAO_INFORMADO, get_or_create_spark, synthetic_row  # noqa: E402
 
 from pyspark.sql import functions as F
