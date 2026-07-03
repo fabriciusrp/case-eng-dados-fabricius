@@ -16,6 +16,16 @@
 
 # COMMAND ----------
 
+# Reinicia o interpretador Python após o pip install (necessário para o novo pacote ficar
+# disponível de forma confiável) e para garantir que nenhum módulo (ex.: `utils`) fique em
+# cache de uma execução anterior na mesma sessão anexada.
+try:
+    dbutils.library.restartPython()  # noqa: F821
+except NameError:
+    pass  # execução local — não há dbutils, nem necessidade de restart
+
+# COMMAND ----------
+
 import os
 import sys
 

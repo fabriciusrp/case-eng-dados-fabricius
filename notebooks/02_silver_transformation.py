@@ -11,6 +11,16 @@
 
 # COMMAND ----------
 
+# Reinicia o interpretador Python antes de importar `utils`: se este notebook (ou outro na
+# mesma sessão anexada) já importou uma versão antiga do módulo antes de uma correção ser
+# reimportada, o Python reaproveitaria o módulo em cache em vez de ler o arquivo atualizado.
+try:
+    dbutils.library.restartPython()  # noqa: F821
+except NameError:
+    pass  # execução local — não há dbutils, nem necessidade de restart
+
+# COMMAND ----------
+
 import os
 import sys
 
