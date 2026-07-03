@@ -1,0 +1,20 @@
+# Ambiente Python local
+.venv/
+__pycache__/
+*.pyc
+
+# Estado do Spark/Delta/metastore local (não faz parte da entrega, é reconstruído rodando os notebooks)
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Arquivos temporários de desenvolvimento/debug (não fazem parte da entrega)
+scratch/
+
+# Ferramentas locais não relacionadas ao case
+.claude/
+databricks-data-engineer/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5798 @@
+[
+  {
+    "delivery_id": "D00001",
+    "order_ref": "O00129",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "21/01/2026 00:00",
+      "delivered_at": "21/01/2026 00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 56.54
+  },
+  {
+    "delivery_id": "D00002",
+    "order_ref": "O00213",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "18/02/2025 00:00",
+      "delivered_at": "27/02/2025 00:00"
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Blumenau"
+    },
+    "cost": 46.34
+  },
+  {
+    "delivery_id": "D00003",
+    "order_ref": "O00048",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-03-23T00:00:00",
+      "delivered_at": "2025-04-01T00:00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Maringá"
+    },
+    "cost": 248.24
+  },
+  {
+    "delivery_id": "D00004",
+    "order_ref": "O00250",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-02-23T00:00:00",
+      "delivered_at": "2025-03-05T00:00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 346.48
+  },
+  {
+    "delivery_id": "D00005",
+    "order_ref": "O00172",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-01-03T00:00:00",
+      "delivered_at": "2025-01-13T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": 218.51
+  },
+  {
+    "delivery_id": "D00006",
+    "order_ref": "O00076",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "18/07/2025 00:00",
+      "delivered_at": "21/07/2025 00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Londrina"
+    },
+    "cost": 101.58
+  },
+  {
+    "delivery_id": "D00007",
+    "order_ref": "O00022",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-11-12T00:00:00",
+      "delivered_at": "13/11/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Belo Horizonte"
+    },
+    "cost": 263.91
+  },
+  {
+    "delivery_id": "D00008",
+    "order_ref": "O00072",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-12-20T00:00:00",
+      "delivered_at": "2025-12-22T00:00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Curitiba"
+    },
+    "cost": 88.49
+  },
+  {
+    "delivery_id": "D00009",
+    "order_ref": "O00123",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-05-08T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 205.36
+  },
+  {
+    "delivery_id": "D00010",
+    "order_ref": "O00263",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "30/11/2025 00:00",
+      "delivered_at": "2025-12-03T00:00:00"
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Florianópolis"
+    },
+    "cost": 59.98
+  },
+  {
+    "delivery_id": "D00011",
+    "order_ref": "O00310",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "28/11/2025 00:00",
+      "delivered_at": "10/12/2025 00:00"
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Blumenau"
+    },
+    "cost": 78.53
+  },
+  {
+    "delivery_id": "D00012",
+    "order_ref": "O00254",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-11-22T00:00:00",
+      "delivered_at": "24/11/2025 00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Campinas"
+    },
+    "cost": 158.73
+  },
+  {
+    "delivery_id": "D00013",
+    "order_ref": "O00143",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-05-10T00:00:00",
+      "delivered_at": "10/05/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Uberlândia"
+    },
+    "cost": 79.31
+  },
+  {
+    "delivery_id": "D00014",
+    "order_ref": "O00104",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "26/02/2025 00:00",
+      "delivered_at": "2025-03-02T00:00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 32.2
+  },
+  {
+    "delivery_id": "D00015",
+    "order_ref": "O00370",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "21/08/2025 00:00",
+      "delivered_at": "26/08/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Niterói"
+    },
+    "cost": 64.56
+  },
+  {
+    "delivery_id": "D00016",
+    "order_ref": "O00093",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "23/04/2025 00:00",
+      "delivered_at": "30/04/2025 00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 183.3
+  },
+  {
+    "delivery_id": "D00017",
+    "order_ref": "O00214",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-03-16T00:00:00",
+      "delivered_at": "17/03/2025 00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Volta Redonda"
+    },
+    "cost": 281.82
+  },
+  {
+    "delivery_id": "D00018",
+    "order_ref": "o00020",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "18/01/2026 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 267.63
+  },
+  {
+    "delivery_id": "D00019",
+    "order_ref": "O00005",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-12-09T00:00:00",
+      "delivered_at": "2025-12-17T00:00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Londrina"
+    },
+    "cost": 271.29
+  },
+  {
+    "delivery_id": "D00020",
+    "order_ref": "O00324",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2026-01-30T00:00:00",
+      "delivered_at": "2026-02-07T00:00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Contagem"
+    },
+    "cost": 114.15
+  },
+  {
+    "delivery_id": "D00021",
+    "order_ref": "O00185",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "27/01/2026 00:00",
+      "delivered_at": "02/02/2026 00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Niterói"
+    },
+    "cost": 170.43
+  },
+  {
+    "delivery_id": "D00022",
+    "order_ref": "O00365",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "11/04/2025 00:00",
+      "delivered_at": "2025-04-14T00:00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Niterói"
+    },
+    "cost": 177.67
+  },
+  {
+    "delivery_id": "D00023",
+    "order_ref": "O00176",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-08-09T00:00:00",
+      "delivered_at": "2025-08-17T00:00:00"
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Florianópolis"
+    },
+    "cost": 79.69
+  },
+  {
+    "delivery_id": "D00024",
+    "order_ref": "O00315",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-07-31T00:00:00",
+      "delivered_at": "2025-08-08T00:00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 136.1
+  },
+  {
+    "delivery_id": "D00025",
+    "order_ref": "O00191",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "19/01/2025 00:00",
+      "delivered_at": "2025-01-23T00:00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Joinville"
+    },
+    "cost": 324.01
+  },
+  {
+    "delivery_id": "D00026",
+    "order_ref": "O00173",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "10/11/2025 00:00",
+      "delivered_at": "11/11/2025 00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 233.48
+  },
+  {
+    "delivery_id": "D00027",
+    "order_ref": "O00002",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "23/12/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 181.26
+  },
+  {
+    "delivery_id": "D00028",
+    "order_ref": "O00054",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "28/04/2025 00:00",
+      "delivered_at": "07/05/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Volta Redonda"
+    },
+    "cost": 246.62
+  },
+  {
+    "delivery_id": "D00029",
+    "order_ref": "O00248",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-01-14T00:00:00",
+      "delivered_at": "2025-01-25T00:00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Blumenau"
+    },
+    "cost": 25.37
+  },
+  {
+    "delivery_id": "D00030",
+    "order_ref": "O00257",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "02/04/2025 00:00",
+      "delivered_at": "2025-04-05T00:00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "São Paulo"
+    },
+    "cost": 220.34
+  },
+  {
+    "delivery_id": "D00031",
+    "order_ref": "O00387",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "17/01/2025 00:00",
+      "delivered_at": "2025-01-18T00:00:00"
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "São Paulo"
+    },
+    "cost": "unknown"
+  },
+  {
+    "delivery_id": "D00032",
+    "order_ref": "O00109",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-08-31T00:00:00",
+      "delivered_at": "06/09/2025 00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 269.9
+  },
+  {
+    "delivery_id": "D00033",
+    "order_ref": "O00395",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-04-19T00:00:00",
+      "delivered_at": "2025-04-20T00:00:00"
+    },
+    "destination": {
+      "state": "Sao Paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 186.89
+  },
+  {
+    "delivery_id": "D00034",
+    "order_ref": "O00171",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-10-12T00:00:00",
+      "delivered_at": "22/10/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": 217.72
+  },
+  {
+    "delivery_id": "D00035",
+    "order_ref": "O00349",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2026-02-11T00:00:00",
+      "delivered_at": "2026-02-18T00:00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Niterói"
+    },
+    "cost": 110.48
+  },
+  {
+    "delivery_id": "D00036",
+    "order_ref": "o00338",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2026-01-31T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 260.58
+  },
+  {
+    "delivery_id": "D00037",
+    "order_ref": "O00259",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-10-01T00:00:00",
+      "delivered_at": "2025-10-02T00:00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Curitiba"
+    },
+    "cost": 193.27
+  },
+  {
+    "delivery_id": "D00038",
+    "order_ref": "O00141",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-04-29T00:00:00",
+      "delivered_at": "2025-05-11T00:00:00"
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "Campinas"
+    },
+    "cost": 188.53
+  },
+  {
+    "delivery_id": "D00039",
+    "order_ref": "O00272",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-02-17T00:00:00",
+      "delivered_at": "21/02/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 57.5
+  },
+  {
+    "delivery_id": "D00040",
+    "order_ref": "O00201",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "09/02/2026 00:00",
+      "delivered_at": "2026-02-12T00:00:00"
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Joinville"
+    },
+    "cost": 65.98
+  },
+  {
+    "delivery_id": "D00041",
+    "order_ref": "O00271",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-05-22T00:00:00",
+      "delivered_at": "2025-05-27T00:00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Joinville"
+    },
+    "cost": 66.07
+  },
+  {
+    "delivery_id": "D00042",
+    "order_ref": "O00303",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2026-01-16T00:00:00",
+      "delivered_at": "28/01/2026 00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Londrina"
+    },
+    "cost": 276.44
+  },
+  {
+    "delivery_id": "D00043",
+    "order_ref": "O00314",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-10-03T00:00:00",
+      "delivered_at": "13/10/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Niterói"
+    },
+    "cost": 238.54
+  },
+  {
+    "delivery_id": "D00044",
+    "order_ref": "O00358",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2026-02-11T00:00:00",
+      "delivered_at": "2026-02-19T00:00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Volta Redonda"
+    },
+    "cost": 205.97
+  },
+  {
+    "delivery_id": "D00045",
+    "order_ref": "O00101",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "02/09/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 278.03
+  },
+  {
+    "delivery_id": "D00046",
+    "order_ref": "O00223",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-06-10T00:00:00",
+      "delivered_at": "2025-06-16T00:00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Belo Horizonte"
+    },
+    "cost": 10.95
+  },
+  {
+    "delivery_id": "D00047",
+    "order_ref": "O00021",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "14/05/2025 00:00",
+      "delivered_at": "17/05/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Belo Horizonte"
+    },
+    "cost": 147.76
+  },
+  {
+    "delivery_id": "D00048",
+    "order_ref": "O00233",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-10-16T00:00:00",
+      "delivered_at": "17/10/2025 00:00"
+    },
+    "destination": {
+      "state": "Sao Paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 26.66
+  },
+  {
+    "delivery_id": "D00049",
+    "order_ref": "O00359",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-06-08T00:00:00",
+      "delivered_at": "10/06/2025 00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Londrina"
+    },
+    "cost": 80.69
+  },
+  {
+    "delivery_id": "D00050",
+    "order_ref": "O00281",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-07-30T00:00:00",
+      "delivered_at": "2025-08-08T00:00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Curitiba"
+    },
+    "cost": 101.06
+  },
+  {
+    "delivery_id": "D00051",
+    "order_ref": "O00149",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-01-25T00:00:00",
+      "delivered_at": "26/01/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 97.94
+  },
+  {
+    "delivery_id": "D00052",
+    "order_ref": "O00276",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-11-26T00:00:00",
+      "delivered_at": "28/11/2025 00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Curitiba"
+    },
+    "cost": 189.63
+  },
+  {
+    "delivery_id": "D00053",
+    "order_ref": "O00234",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-02-02T00:00:00",
+      "delivered_at": "2025-02-08T00:00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Niterói"
+    },
+    "cost": 220.49
+  },
+  {
+    "delivery_id": "D00054",
+    "order_ref": "o00023",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-06-01T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "São Paulo"
+    },
+    "cost": 309.01
+  },
+  {
+    "delivery_id": "D00055",
+    "order_ref": "O00146",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2026-01-23T00:00:00",
+      "delivered_at": "03/02/2026 00:00"
+    },
+    "destination": {
+      "state": "Sao Paulo",
+      "city": "São Paulo"
+    },
+    "cost": 167.07
+  },
+  {
+    "delivery_id": "D00056",
+    "order_ref": "O00367",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "21/01/2025 00:00",
+      "delivered_at": "27/01/2025 00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 147.11
+  },
+  {
+    "delivery_id": "D00057",
+    "order_ref": "O00010",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-04-28T00:00:00",
+      "delivered_at": "2025-05-09T00:00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 169.74
+  },
+  {
+    "delivery_id": "D00058",
+    "order_ref": "O00209",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-06-07T00:00:00",
+      "delivered_at": "13/06/2025 00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Volta Redonda"
+    },
+    "cost": 247.12
+  },
+  {
+    "delivery_id": "D00059",
+    "order_ref": "O00302",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-09-23T00:00:00",
+      "delivered_at": "25/09/2025 00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Niterói"
+    },
+    "cost": 243.52
+  },
+  {
+    "delivery_id": "D00060",
+    "order_ref": "O00322",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "30/01/2025 00:00",
+      "delivered_at": "2025-02-03T00:00:00"
+    },
+    "destination": {
+      "state": "Sao Paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 117.13
+  },
+  {
+    "delivery_id": "D00061",
+    "order_ref": "O00033",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-12-29T00:00:00",
+      "delivered_at": "2025-12-30T00:00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 164.61
+  },
+  {
+    "delivery_id": "D00062",
+    "order_ref": "O00243",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-08-27T00:00:00",
+      "delivered_at": "2025-09-07T00:00:00"
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Florianópolis"
+    },
+    "cost": "unknown"
+  },
+  {
+    "delivery_id": "D00063",
+    "order_ref": "O00384",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-03-10T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 335.11
+  },
+  {
+    "delivery_id": "D00064",
+    "order_ref": "O00238",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2026-01-20T00:00:00",
+      "delivered_at": "29/01/2026 00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Londrina"
+    },
+    "cost": 274.83
+  },
+  {
+    "delivery_id": "D00065",
+    "order_ref": "O00312",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2026-01-04T00:00:00",
+      "delivered_at": "2026-01-12T00:00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 123.76
+  },
+  {
+    "delivery_id": "D00066",
+    "order_ref": "O00293",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "01/08/2025 00:00",
+      "delivered_at": "02/08/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Maringá"
+    },
+    "cost": 248.97
+  },
+  {
+    "delivery_id": "D00067",
+    "order_ref": "O00119",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-05-16T00:00:00",
+      "delivered_at": "27/05/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Volta Redonda"
+    },
+    "cost": 279.31
+  },
+  {
+    "delivery_id": "D00068",
+    "order_ref": "O00162",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "10/03/2025 00:00",
+      "delivered_at": "2025-03-10T00:00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Joinville"
+    },
+    "cost": 86.79
+  },
+  {
+    "delivery_id": "D00069",
+    "order_ref": "O00352",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-07-23T00:00:00",
+      "delivered_at": "31/07/2025 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 287.08
+  },
+  {
+    "delivery_id": "D00070",
+    "order_ref": "O00115",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "22/03/2025 00:00",
+      "delivered_at": "25/03/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Londrina"
+    },
+    "cost": 152.21
+  },
+  {
+    "delivery_id": "D00071",
+    "order_ref": "O00231",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "17/02/2025 00:00",
+      "delivered_at": "2025-02-21T00:00:00"
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Blumenau"
+    },
+    "cost": 17.23
+  },
+  {
+    "delivery_id": "D00072",
+    "order_ref": "o00136",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "10/02/2026 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 245.85
+  },
+  {
+    "delivery_id": "D00073",
+    "order_ref": "O00154",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-03-01T00:00:00",
+      "delivered_at": "2025-03-12T00:00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Campinas"
+    },
+    "cost": 142.8
+  },
+  {
+    "delivery_id": "D00074",
+    "order_ref": "O00383",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "08/11/2025 00:00",
+      "delivered_at": "2025-11-09T00:00:00"
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Blumenau"
+    },
+    "cost": 82.37
+  },
+  {
+    "delivery_id": "D00075",
+    "order_ref": "O00118",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-03-31T00:00:00",
+      "delivered_at": "12/04/2025 00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Campinas"
+    },
+    "cost": 204.49
+  },
+  {
+    "delivery_id": "D00076",
+    "order_ref": "O00297",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-09-06T00:00:00",
+      "delivered_at": "16/09/2025 00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Contagem"
+    },
+    "cost": 337.46
+  },
+  {
+    "delivery_id": "D00077",
+    "order_ref": "O00131",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "01/03/2025 00:00",
+      "delivered_at": "04/03/2025 00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Niterói"
+    },
+    "cost": 303.36
+  },
+  {
+    "delivery_id": "D00078",
+    "order_ref": "O00203",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-10-09T00:00:00",
+      "delivered_at": "2025-10-20T00:00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Londrina"
+    },
+    "cost": 218.93
+  },
+  {
+    "delivery_id": "D00079",
+    "order_ref": "O00329",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-03-05T00:00:00",
+      "delivered_at": "2025-03-05T00:00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Joinville"
+    },
+    "cost": 347.68
+  },
+  {
+    "delivery_id": "D00080",
+    "order_ref": "O00003",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-10-25T00:00:00",
+      "delivered_at": "2025-11-05T00:00:00"
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Joinville"
+    },
+    "cost": 208.19
+  },
+  {
+    "delivery_id": "D00081",
+    "order_ref": "O00362",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "26/03/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Maringá"
+    },
+    "cost": 215.58
+  },
+  {
+    "delivery_id": "D00082",
+    "order_ref": "O00326",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "04/11/2025 00:00",
+      "delivered_at": "15/11/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 94.39
+  },
+  {
+    "delivery_id": "D00083",
+    "order_ref": "O00354",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "19/06/2025 00:00",
+      "delivered_at": "2025-06-28T00:00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 46.84
+  },
+  {
+    "delivery_id": "D00084",
+    "order_ref": "O00114",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "04/02/2026 00:00",
+      "delivered_at": "2026-02-16T00:00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 247.89
+  },
+  {
+    "delivery_id": "D00085",
+    "order_ref": "O00330",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "13/10/2025 00:00",
+      "delivered_at": "2025-10-20T00:00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "São Paulo"
+    },
+    "cost": 264.75
+  },
+  {
+    "delivery_id": "D00086",
+    "order_ref": "O00392",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "08/06/2025 00:00",
+      "delivered_at": "2025-06-16T00:00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 315.0
+  },
+  {
+    "delivery_id": "D00087",
+    "order_ref": "O00204",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2026-01-23T00:00:00",
+      "delivered_at": "2026-01-23T00:00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Volta Redonda"
+    },
+    "cost": 217.4
+  },
+  {
+    "delivery_id": "D00088",
+    "order_ref": "O00374",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "24/06/2025 00:00",
+      "delivered_at": "2025-06-24T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Maringá"
+    },
+    "cost": 100.45
+  },
+  {
+    "delivery_id": "D00089",
+    "order_ref": "O00221",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2026-02-06T00:00:00",
+      "delivered_at": "2026-02-14T00:00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Contagem"
+    },
+    "cost": 173.86
+  },
+  {
+    "delivery_id": "D00090",
+    "order_ref": "o00025",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "07/08/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "Campinas"
+    },
+    "cost": 296.72
+  },
+  {
+    "delivery_id": "D00091",
+    "order_ref": "O00039",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "02/02/2026 00:00",
+      "delivered_at": "06/02/2026 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Belo Horizonte"
+    },
+    "cost": 300.58
+  },
+  {
+    "delivery_id": "D00092",
+    "order_ref": "O00363",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "26/03/2025 00:00",
+      "delivered_at": "02/04/2025 00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "São Paulo"
+    },
+    "cost": 349.47
+  },
+  {
+    "delivery_id": "D00093",
+    "order_ref": "O00275",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-03-01T00:00:00",
+      "delivered_at": "13/03/2025 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": "unknown"
+  },
+  {
+    "delivery_id": "D00094",
+    "order_ref": "O00280",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "03/02/2025 00:00",
+      "delivered_at": "2025-02-09T00:00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Londrina"
+    },
+    "cost": 28.47
+  },
+  {
+    "delivery_id": "D00095",
+    "order_ref": "O00379",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "28/07/2025 00:00",
+      "delivered_at": "2025-08-09T00:00:00"
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 135.24
+  },
+  {
+    "delivery_id": "D00096",
+    "order_ref": "O00009",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "23/11/2025 00:00",
+      "delivered_at": "27/11/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 29.78
+  },
+  {
+    "delivery_id": "D00097",
+    "order_ref": "O00371",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-08-18T00:00:00",
+      "delivered_at": "20/08/2025 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Contagem"
+    },
+    "cost": 281.55
+  },
+  {
+    "delivery_id": "D00098",
+    "order_ref": "O00157",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2026-01-17T00:00:00",
+      "delivered_at": "24/01/2026 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Uberlândia"
+    },
+    "cost": 328.44
+  },
+  {
+    "delivery_id": "D00099",
+    "order_ref": "O00027",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-12-12T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 40.32
+  },
+  {
+    "delivery_id": "D00100",
+    "order_ref": "O00255",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "09/03/2025 00:00",
+      "delivered_at": "2025-03-14T00:00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Volta Redonda"
+    },
+    "cost": 325.24
+  },
+  {
+    "delivery_id": "D00101",
+    "order_ref": "O00298",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-08-26T00:00:00",
+      "delivered_at": "2025-08-26T00:00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "São Paulo"
+    },
+    "cost": 84.42
+  },
+  {
+    "delivery_id": "D00102",
+    "order_ref": "O00110",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "05/08/2025 00:00",
+      "delivered_at": "08/08/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": 74.73
+  },
+  {
+    "delivery_id": "D00103",
+    "order_ref": "O00274",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-08-18T00:00:00",
+      "delivered_at": "2025-08-19T00:00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Londrina"
+    },
+    "cost": 26.25
+  },
+  {
+    "delivery_id": "D00104",
+    "order_ref": "O00283",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "22/07/2025 00:00",
+      "delivered_at": "26/07/2025 00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Curitiba"
+    },
+    "cost": 163.59
+  },
+  {
+    "delivery_id": "D00105",
+    "order_ref": "O00148",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-12-16T00:00:00",
+      "delivered_at": "2025-12-20T00:00:00"
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Blumenau"
+    },
+    "cost": 278.92
+  },
+  {
+    "delivery_id": "D00106",
+    "order_ref": "O00060",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-12-08T00:00:00",
+      "delivered_at": "2025-12-16T00:00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 192.32
+  },
+  {
+    "delivery_id": "D00107",
+    "order_ref": "O00121",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "04/04/2025 00:00",
+      "delivered_at": "05/04/2025 00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "São Paulo"
+    },
+    "cost": 267.68
+  },
+  {
+    "delivery_id": "D00108",
+    "order_ref": "o00200",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "29/04/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "SP",
+      "city": "São Paulo"
+    },
+    "cost": 125.08
+  },
+  {
+    "delivery_id": "D00109",
+    "order_ref": "O00288",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "21/10/2025 00:00",
+      "delivered_at": "02/11/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Belo Horizonte"
+    },
+    "cost": 164.22
+  },
+  {
+    "delivery_id": "D00110",
+    "order_ref": "O00169",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-12-25T00:00:00",
+      "delivered_at": "2025-12-25T00:00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 137.88
+  },
+  {
+    "delivery_id": "D00111",
+    "order_ref": "O00091",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "15/03/2025 00:00",
+      "delivered_at": "16/03/2025 00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "São Paulo"
+    },
+    "cost": 347.33
+  },
+  {
+    "delivery_id": "D00112",
+    "order_ref": "O00307",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "14/12/2025 00:00",
+      "delivered_at": "2025-12-24T00:00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Niterói"
+    },
+    "cost": 147.68
+  },
+  {
+    "delivery_id": "D00113",
+    "order_ref": "O00103",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-03-18T00:00:00",
+      "delivered_at": "29/03/2025 00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Joinville"
+    },
+    "cost": 339.43
+  },
+  {
+    "delivery_id": "D00114",
+    "order_ref": "O00008",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "22/01/2026 00:00",
+      "delivered_at": "2026-01-31T00:00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 313.34
+  },
+  {
+    "delivery_id": "D00115",
+    "order_ref": "O00220",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "20/01/2025 00:00",
+      "delivered_at": "25/01/2025 00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Joinville"
+    },
+    "cost": 310.05
+  },
+  {
+    "delivery_id": "D00116",
+    "order_ref": "O00041",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "22/06/2025 00:00",
+      "delivered_at": "03/07/2025 00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Maringá"
+    },
+    "cost": 182.56
+  },
+  {
+    "delivery_id": "D00117",
+    "order_ref": "O00291",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2026-02-19T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Blumenau"
+    },
+    "cost": 146.56
+  },
+  {
+    "delivery_id": "D00118",
+    "order_ref": "O00126",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "19/07/2025 00:00",
+      "delivered_at": "26/07/2025 00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "São Paulo"
+    },
+    "cost": 337.6
+  },
+  {
+    "delivery_id": "D00119",
+    "order_ref": "O00246",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-02-02T00:00:00",
+      "delivered_at": "13/02/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Uberlândia"
+    },
+    "cost": 254.3
+  },
+  {
+    "delivery_id": "D00120",
+    "order_ref": "O00011",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-03-20T00:00:00",
+      "delivered_at": "22/03/2025 00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Volta Redonda"
+    },
+    "cost": 10.22
+  },
+  {
+    "delivery_id": "D00121",
+    "order_ref": "O00051",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "26/11/2025 00:00",
+      "delivered_at": "2025-11-28T00:00:00"
+    },
+    "destination": {
+      "state": "Sao Paulo",
+      "city": "Campinas"
+    },
+    "cost": 139.52
+  },
+  {
+    "delivery_id": "D00122",
+    "order_ref": "O00067",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-11-14T00:00:00",
+      "delivered_at": "2025-11-19T00:00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Contagem"
+    },
+    "cost": 69.81
+  },
+  {
+    "delivery_id": "D00123",
+    "order_ref": "O00133",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "18/01/2026 00:00",
+      "delivered_at": "23/01/2026 00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Niterói"
+    },
+    "cost": 76.68
+  },
+  {
+    "delivery_id": "D00124",
+    "order_ref": "O00087",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-06-30T00:00:00",
+      "delivered_at": "09/07/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": "unknown"
+  },
+  {
+    "delivery_id": "D00125",
+    "order_ref": "O00150",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-04-10T00:00:00",
+      "delivered_at": "18/04/2025 00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Maringá"
+    },
+    "cost": 241.38
+  },
+  {
+    "delivery_id": "D00126",
+    "order_ref": "o00132",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "17/06/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": 339.33
+  },
+  {
+    "delivery_id": "D00127",
+    "order_ref": "O00399",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "29/03/2025 00:00",
+      "delivered_at": "2025-04-04T00:00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Maringá"
+    },
+    "cost": 46.11
+  },
+  {
+    "delivery_id": "D00128",
+    "order_ref": "O00083",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "30/12/2025 00:00",
+      "delivered_at": "05/01/2026 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Volta Redonda"
+    },
+    "cost": 120.29
+  },
+  {
+    "delivery_id": "D00129",
+    "order_ref": "O00219",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-11-09T00:00:00",
+      "delivered_at": "2025-11-14T00:00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Contagem"
+    },
+    "cost": 221.88
+  },
+  {
+    "delivery_id": "D00130",
+    "order_ref": "O00105",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "12/12/2025 00:00",
+      "delivered_at": "2025-12-20T00:00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Curitiba"
+    },
+    "cost": 187.32
+  },
+  {
+    "delivery_id": "D00131",
+    "order_ref": "O00084",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-12-27T00:00:00",
+      "delivered_at": "01/01/2026 00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Londrina"
+    },
+    "cost": 114.58
+  },
+  {
+    "delivery_id": "D00132",
+    "order_ref": "O00186",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-06-16T00:00:00",
+      "delivered_at": "2025-06-20T00:00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Contagem"
+    },
+    "cost": 68.99
+  },
+  {
+    "delivery_id": "D00133",
+    "order_ref": "O00050",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "14/11/2025 00:00",
+      "delivered_at": "17/11/2025 00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 15.46
+  },
+  {
+    "delivery_id": "D00134",
+    "order_ref": "O00296",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-11-14T00:00:00",
+      "delivered_at": "18/11/2025 00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Campinas"
+    },
+    "cost": 140.2
+  },
+  {
+    "delivery_id": "D00135",
+    "order_ref": "O00159",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-09-28T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": 102.37
+  },
+  {
+    "delivery_id": "D00136",
+    "order_ref": "O00036",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-03-08T00:00:00",
+      "delivered_at": "11/03/2025 00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Londrina"
+    },
+    "cost": 151.47
+  },
+  {
+    "delivery_id": "D00137",
+    "order_ref": "O00040",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "16/06/2025 00:00",
+      "delivered_at": "28/06/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": 56.99
+  },
+  {
+    "delivery_id": "D00138",
+    "order_ref": "O00080",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "28/12/2025 00:00",
+      "delivered_at": "02/01/2026 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Londrina"
+    },
+    "cost": 277.79
+  },
+  {
+    "delivery_id": "D00139",
+    "order_ref": "O00063",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-11-11T00:00:00",
+      "delivered_at": "2025-11-15T00:00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Campinas"
+    },
+    "cost": 18.63
+  },
+  {
+    "delivery_id": "D00140",
+    "order_ref": "O00313",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-01-04T00:00:00",
+      "delivered_at": "2025-01-04T00:00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 54.58
+  },
+  {
+    "delivery_id": "D00141",
+    "order_ref": "O00377",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-03-01T00:00:00",
+      "delivered_at": "13/03/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Niterói"
+    },
+    "cost": 21.49
+  },
+  {
+    "delivery_id": "D00142",
+    "order_ref": "O00034",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "15/04/2025 00:00",
+      "delivered_at": "25/04/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 219.75
+  },
+  {
+    "delivery_id": "D00143",
+    "order_ref": "O00139",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-07-17T00:00:00",
+      "delivered_at": "26/07/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Maringá"
+    },
+    "cost": 278.2
+  },
+  {
+    "delivery_id": "D00144",
+    "order_ref": "o00092",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "04/01/2026 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 249.25
+  },
+  {
+    "delivery_id": "D00145",
+    "order_ref": "O00059",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-07-08T00:00:00",
+      "delivered_at": "2025-07-12T00:00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "São Paulo"
+    },
+    "cost": 52.94
+  },
+  {
+    "delivery_id": "D00146",
+    "order_ref": "O00196",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "07/11/2025 00:00",
+      "delivered_at": "2025-11-09T00:00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Blumenau"
+    },
+    "cost": 93.21
+  },
+  {
+    "delivery_id": "D00147",
+    "order_ref": "O00116",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-05-15T00:00:00",
+      "delivered_at": "2025-05-22T00:00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Campinas"
+    },
+    "cost": 186.35
+  },
+  {
+    "delivery_id": "D00148",
+    "order_ref": "O00277",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "14/02/2025 00:00",
+      "delivered_at": "24/02/2025 00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Uberlândia"
+    },
+    "cost": 263.92
+  },
+  {
+    "delivery_id": "D00149",
+    "order_ref": "O00032",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-07-05T00:00:00",
+      "delivered_at": "2025-07-13T00:00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 220.33
+  },
+  {
+    "delivery_id": "D00150",
+    "order_ref": "O00400",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-09-19T00:00:00",
+      "delivered_at": "01/10/2025 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Contagem"
+    },
+    "cost": 305.47
+  },
+  {
+    "delivery_id": "D00151",
+    "order_ref": "O00197",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "03/01/2026 00:00",
+      "delivered_at": "2026-01-10T00:00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Joinville"
+    },
+    "cost": 277.65
+  },
+  {
+    "delivery_id": "D00152",
+    "order_ref": "O00306",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2026-01-08T00:00:00",
+      "delivered_at": "2026-01-11T00:00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Maringá"
+    },
+    "cost": 334.77
+  },
+  {
+    "delivery_id": "D00153",
+    "order_ref": "O00335",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "11/11/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Contagem"
+    },
+    "cost": 300.31
+  },
+  {
+    "delivery_id": "D00154",
+    "order_ref": "O00137",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-02-08T00:00:00",
+      "delivered_at": "18/02/2025 00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Niterói"
+    },
+    "cost": 248.84
+  },
+  {
+    "delivery_id": "D00155",
+    "order_ref": "O00120",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "06/05/2025 00:00",
+      "delivered_at": "18/05/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": "unknown"
+  },
+  {
+    "delivery_id": "D00156",
+    "order_ref": "O00381",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "08/09/2025 00:00",
+      "delivered_at": "19/09/2025 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 204.15
+  },
+  {
+    "delivery_id": "D00157",
+    "order_ref": "O00252",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "14/05/2025 00:00",
+      "delivered_at": "18/05/2025 00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Curitiba"
+    },
+    "cost": 204.15
+  },
+  {
+    "delivery_id": "D00158",
+    "order_ref": "O00124",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "14/08/2025 00:00",
+      "delivered_at": "15/08/2025 00:00"
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "São Paulo"
+    },
+    "cost": 176.71
+  },
+  {
+    "delivery_id": "D00159",
+    "order_ref": "O00396",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2026-02-23T00:00:00",
+      "delivered_at": "2026-02-28T00:00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Campinas"
+    },
+    "cost": 145.02
+  },
+  {
+    "delivery_id": "D00160",
+    "order_ref": "O00158",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2026-02-09T00:00:00",
+      "delivered_at": "20/02/2026 00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Joinville"
+    },
+    "cost": 216.24
+  },
+  {
+    "delivery_id": "D00161",
+    "order_ref": "O00393",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-12-18T00:00:00",
+      "delivered_at": "25/12/2025 00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Maringá"
+    },
+    "cost": 131.5
+  },
+  {
+    "delivery_id": "D00162",
+    "order_ref": "o00202",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-05-02T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Londrina"
+    },
+    "cost": 342.52
+  },
+  {
+    "delivery_id": "D00163",
+    "order_ref": "O00394",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-05-01T00:00:00",
+      "delivered_at": "07/05/2025 00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 306.48
+  },
+  {
+    "delivery_id": "D00164",
+    "order_ref": "O00304",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "20/10/2025 00:00",
+      "delivered_at": "2025-10-21T00:00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Joinville"
+    },
+    "cost": 77.61
+  },
+  {
+    "delivery_id": "D00165",
+    "order_ref": "O00239",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-05-22T00:00:00",
+      "delivered_at": "2025-06-01T00:00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Londrina"
+    },
+    "cost": 347.34
+  },
+  {
+    "delivery_id": "D00166",
+    "order_ref": "O00024",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-02-12T00:00:00",
+      "delivered_at": "2025-02-15T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": 225.32
+  },
+  {
+    "delivery_id": "D00167",
+    "order_ref": "O00290",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "10/01/2026 00:00",
+      "delivered_at": "12/01/2026 00:00"
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Blumenau"
+    },
+    "cost": 57.48
+  },
+  {
+    "delivery_id": "D00168",
+    "order_ref": "O00046",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "28/02/2025 00:00",
+      "delivered_at": "2025-03-09T00:00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 24.23
+  },
+  {
+    "delivery_id": "D00169",
+    "order_ref": "O00100",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "13/11/2025 00:00",
+      "delivered_at": "24/11/2025 00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 324.66
+  },
+  {
+    "delivery_id": "D00170",
+    "order_ref": "O00207",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2026-01-18T00:00:00",
+      "delivered_at": "29/01/2026 00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Campinas"
+    },
+    "cost": 80.86
+  },
+  {
+    "delivery_id": "D00171",
+    "order_ref": "O00049",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-01-07T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Campinas"
+    },
+    "cost": 69.89
+  },
+  {
+    "delivery_id": "D00172",
+    "order_ref": "O00140",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-02-16T00:00:00",
+      "delivered_at": "20/02/2025 00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 212.75
+  },
+  {
+    "delivery_id": "D00173",
+    "order_ref": "O00065",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "12/07/2025 00:00",
+      "delivered_at": "2025-07-14T00:00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 253.33
+  },
+  {
+    "delivery_id": "D00174",
+    "order_ref": "O00269",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-10-19T00:00:00",
+      "delivered_at": "2025-10-28T00:00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 58.24
+  },
+  {
+    "delivery_id": "D00175",
+    "order_ref": "O00382",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "08/04/2025 00:00",
+      "delivered_at": "2025-04-14T00:00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 98.18
+  },
+  {
+    "delivery_id": "D00176",
+    "order_ref": "O00266",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-02-08T00:00:00",
+      "delivered_at": "19/02/2025 00:00"
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "Campinas"
+    },
+    "cost": 218.85
+  },
+  {
+    "delivery_id": "D00177",
+    "order_ref": "O00206",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-09-03T00:00:00",
+      "delivered_at": "2025-09-06T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Maringá"
+    },
+    "cost": 255.33
+  },
+  {
+    "delivery_id": "D00178",
+    "order_ref": "O00357",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-02-13T00:00:00",
+      "delivered_at": "2025-02-19T00:00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Contagem"
+    },
+    "cost": 231.03
+  },
+  {
+    "delivery_id": "D00179",
+    "order_ref": "O00397",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-02-24T00:00:00",
+      "delivered_at": "2025-03-01T00:00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Volta Redonda"
+    },
+    "cost": 304.59
+  },
+  {
+    "delivery_id": "D00180",
+    "order_ref": "o00347",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "17/01/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Joinville"
+    },
+    "cost": 201.91
+  },
+  {
+    "delivery_id": "D00181",
+    "order_ref": "O00017",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2026-01-29T00:00:00",
+      "delivered_at": "08/02/2026 00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Contagem"
+    },
+    "cost": 240.2
+  },
+  {
+    "delivery_id": "D00182",
+    "order_ref": "O00042",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "28/06/2025 00:00",
+      "delivered_at": "03/07/2025 00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 294.5
+  },
+  {
+    "delivery_id": "D00183",
+    "order_ref": "O00038",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-05-09T00:00:00",
+      "delivered_at": "2025-05-16T00:00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Belo Horizonte"
+    },
+    "cost": 23.17
+  },
+  {
+    "delivery_id": "D00184",
+    "order_ref": "O00088",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "14/01/2025 00:00",
+      "delivered_at": "26/01/2025 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Uberlândia"
+    },
+    "cost": 65.04
+  },
+  {
+    "delivery_id": "D00185",
+    "order_ref": "O00320",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "22/09/2025 00:00",
+      "delivered_at": "22/09/2025 00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Curitiba"
+    },
+    "cost": 211.53
+  },
+  {
+    "delivery_id": "D00186",
+    "order_ref": "O00134",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2026-01-04T00:00:00",
+      "delivered_at": "2026-01-05T00:00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Niterói"
+    },
+    "cost": "unknown"
+  },
+  {
+    "delivery_id": "D00187",
+    "order_ref": "O00343",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-02-22T00:00:00",
+      "delivered_at": "2025-02-25T00:00:00"
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Joinville"
+    },
+    "cost": 339.79
+  },
+  {
+    "delivery_id": "D00188",
+    "order_ref": "O00177",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-05-22T00:00:00",
+      "delivered_at": "2025-05-29T00:00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 202.14
+  },
+  {
+    "delivery_id": "D00189",
+    "order_ref": "O00247",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "04/04/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Londrina"
+    },
+    "cost": 178.7
+  },
+  {
+    "delivery_id": "D00190",
+    "order_ref": "O00268",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-04-15T00:00:00",
+      "delivered_at": "16/04/2025 00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Londrina"
+    },
+    "cost": 323.47
+  },
+  {
+    "delivery_id": "D00191",
+    "order_ref": "O00260",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-08-12T00:00:00",
+      "delivered_at": "2025-08-18T00:00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Contagem"
+    },
+    "cost": 300.27
+  },
+  {
+    "delivery_id": "D00192",
+    "order_ref": "O00194",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "10/01/2025 00:00",
+      "delivered_at": "2025-01-10T00:00:00"
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Joinville"
+    },
+    "cost": 223.12
+  },
+  {
+    "delivery_id": "D00193",
+    "order_ref": "O00333",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "13/01/2025 00:00",
+      "delivered_at": "25/01/2025 00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Joinville"
+    },
+    "cost": 22.7
+  },
+  {
+    "delivery_id": "D00194",
+    "order_ref": "O00090",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "19/01/2026 00:00",
+      "delivered_at": "2026-01-29T00:00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 237.02
+  },
+  {
+    "delivery_id": "D00195",
+    "order_ref": "O00287",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-12-29T00:00:00",
+      "delivered_at": "30/12/2025 00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Volta Redonda"
+    },
+    "cost": 289.38
+  },
+  {
+    "delivery_id": "D00196",
+    "order_ref": "O00217",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-07-22T00:00:00",
+      "delivered_at": "2025-08-03T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Maringá"
+    },
+    "cost": 159.27
+  },
+  {
+    "delivery_id": "D00197",
+    "order_ref": "O00232",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "03/03/2025 00:00",
+      "delivered_at": "2025-03-09T00:00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 174.88
+  },
+  {
+    "delivery_id": "D00198",
+    "order_ref": "o00323",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-01-26T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Uberlândia"
+    },
+    "cost": 72.23
+  },
+  {
+    "delivery_id": "D00199",
+    "order_ref": "O00249",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "13/01/2026 00:00",
+      "delivered_at": "2026-01-24T00:00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Maringá"
+    },
+    "cost": 289.67
+  },
+  {
+    "delivery_id": "D00200",
+    "order_ref": "O00111",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "16/05/2025 00:00",
+      "delivered_at": "2025-05-18T00:00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Uberlândia"
+    },
+    "cost": 288.74
+  },
+  {
+    "delivery_id": "D00201",
+    "order_ref": "O00342",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-10-04T00:00:00",
+      "delivered_at": "2025-10-06T00:00:00"
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 298.87
+  },
+  {
+    "delivery_id": "D00202",
+    "order_ref": "O00308",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "07/10/2025 00:00",
+      "delivered_at": "2025-10-19T00:00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 341.84
+  },
+  {
+    "delivery_id": "D00203",
+    "order_ref": "O00386",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "12/01/2025 00:00",
+      "delivered_at": "23/01/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Maringá"
+    },
+    "cost": 57.0
+  },
+  {
+    "delivery_id": "D00204",
+    "order_ref": "O00055",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "24/01/2026 00:00",
+      "delivered_at": "25/01/2026 00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 193.29
+  },
+  {
+    "delivery_id": "D00205",
+    "order_ref": "O00043",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "01/02/2025 00:00",
+      "delivered_at": "13/02/2025 00:00"
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Blumenau"
+    },
+    "cost": 41.86
+  },
+  {
+    "delivery_id": "D00206",
+    "order_ref": "O00230",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "03/04/2025 00:00",
+      "delivered_at": "2025-04-06T00:00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 38.57
+  },
+  {
+    "delivery_id": "D00207",
+    "order_ref": "O00225",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "22/03/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 61.15
+  },
+  {
+    "delivery_id": "D00208",
+    "order_ref": "O00164",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2026-01-07T00:00:00",
+      "delivered_at": "19/01/2026 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Contagem"
+    },
+    "cost": 50.09
+  },
+  {
+    "delivery_id": "D00209",
+    "order_ref": "O00339",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "09/02/2026 00:00",
+      "delivered_at": "2026-02-10T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Maringá"
+    },
+    "cost": 228.39
+  },
+  {
+    "delivery_id": "D00210",
+    "order_ref": "O00151",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "01/04/2025 00:00",
+      "delivered_at": "08/04/2025 00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Niterói"
+    },
+    "cost": 207.55
+  },
+  {
+    "delivery_id": "D00211",
+    "order_ref": "O00179",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2026-02-17T00:00:00",
+      "delivered_at": "27/02/2026 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 106.23
+  },
+  {
+    "delivery_id": "D00212",
+    "order_ref": "O00018",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "09/11/2025 00:00",
+      "delivered_at": "2025-11-15T00:00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Uberlândia"
+    },
+    "cost": 183.98
+  },
+  {
+    "delivery_id": "D00213",
+    "order_ref": "O00256",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "19/03/2025 00:00",
+      "delivered_at": "2025-03-20T00:00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 64.33
+  },
+  {
+    "delivery_id": "D00214",
+    "order_ref": "O00284",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-07-02T00:00:00",
+      "delivered_at": "2025-07-11T00:00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Campinas"
+    },
+    "cost": 191.77
+  },
+  {
+    "delivery_id": "D00215",
+    "order_ref": "O00127",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-09-30T00:00:00",
+      "delivered_at": "11/10/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Londrina"
+    },
+    "cost": 61.46
+  },
+  {
+    "delivery_id": "D00216",
+    "order_ref": "o00388",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2026-01-21T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Uberlândia"
+    },
+    "cost": 35.11
+  },
+  {
+    "delivery_id": "D00217",
+    "order_ref": "O00319",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "27/02/2025 00:00",
+      "delivered_at": "2025-03-08T00:00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "São Paulo"
+    },
+    "cost": "unknown"
+  },
+  {
+    "delivery_id": "D00218",
+    "order_ref": "O00355",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-09-01T00:00:00",
+      "delivered_at": "2025-09-12T00:00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Uberlândia"
+    },
+    "cost": 199.14
+  },
+  {
+    "delivery_id": "D00219",
+    "order_ref": "O00273",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "18/02/2025 00:00",
+      "delivered_at": "24/02/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 99.14
+  },
+  {
+    "delivery_id": "D00220",
+    "order_ref": "O00165",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "12/11/2025 00:00",
+      "delivered_at": "13/11/2025 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Contagem"
+    },
+    "cost": 151.57
+  },
+  {
+    "delivery_id": "D00221",
+    "order_ref": "O00095",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "02/02/2025 00:00",
+      "delivered_at": "2025-02-09T00:00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 335.18
+  },
+  {
+    "delivery_id": "D00222",
+    "order_ref": "O00289",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "09/01/2026 00:00",
+      "delivered_at": "2026-01-09T00:00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Uberlândia"
+    },
+    "cost": 150.66
+  },
+  {
+    "delivery_id": "D00223",
+    "order_ref": "O00351",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "23/02/2025 00:00",
+      "delivered_at": "07/03/2025 00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 235.48
+  },
+  {
+    "delivery_id": "D00224",
+    "order_ref": "O00344",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "13/11/2025 00:00",
+      "delivered_at": "25/11/2025 00:00"
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "Campinas"
+    },
+    "cost": 125.7
+  },
+  {
+    "delivery_id": "D00225",
+    "order_ref": "O00389",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-05-14T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Blumenau"
+    },
+    "cost": 71.4
+  },
+  {
+    "delivery_id": "D00226",
+    "order_ref": "O00195",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "18/12/2025 00:00",
+      "delivered_at": "2025-12-30T00:00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 33.93
+  },
+  {
+    "delivery_id": "D00227",
+    "order_ref": "O00001",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "10/02/2025 00:00",
+      "delivered_at": "16/02/2025 00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Joinville"
+    },
+    "cost": 341.79
+  },
+  {
+    "delivery_id": "D00228",
+    "order_ref": "O00147",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-11-28T00:00:00",
+      "delivered_at": "30/11/2025 00:00"
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Florianópolis"
+    },
+    "cost": 26.71
+  },
+  {
+    "delivery_id": "D00229",
+    "order_ref": "O00348",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "01/11/2025 00:00",
+      "delivered_at": "2025-11-11T00:00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Londrina"
+    },
+    "cost": 322.97
+  },
+  {
+    "delivery_id": "D00230",
+    "order_ref": "O00226",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "12/07/2025 00:00",
+      "delivered_at": "2025-07-22T00:00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Niterói"
+    },
+    "cost": 99.12
+  },
+  {
+    "delivery_id": "D00231",
+    "order_ref": "O00096",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "08/01/2025 00:00",
+      "delivered_at": "20/01/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Volta Redonda"
+    },
+    "cost": 313.44
+  },
+  {
+    "delivery_id": "D00232",
+    "order_ref": "O00167",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-10-20T00:00:00",
+      "delivered_at": "27/10/2025 00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 301.39
+  },
+  {
+    "delivery_id": "D00233",
+    "order_ref": "O00253",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-07-09T00:00:00",
+      "delivered_at": "13/07/2025 00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Contagem"
+    },
+    "cost": 108.32
+  },
+  {
+    "delivery_id": "D00234",
+    "order_ref": "o00107",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-02-25T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Volta Redonda"
+    },
+    "cost": 154.67
+  },
+  {
+    "delivery_id": "D00235",
+    "order_ref": "O00261",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "06/04/2025 00:00",
+      "delivered_at": "07/04/2025 00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 233.26
+  },
+  {
+    "delivery_id": "D00236",
+    "order_ref": "O00081",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-06-09T00:00:00",
+      "delivered_at": "2025-06-15T00:00:00"
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "São Paulo"
+    },
+    "cost": 105.52
+  },
+  {
+    "delivery_id": "D00237",
+    "order_ref": "O00334",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-02-21T00:00:00",
+      "delivered_at": "2025-02-22T00:00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Niterói"
+    },
+    "cost": 210.2
+  },
+  {
+    "delivery_id": "D00238",
+    "order_ref": "O00337",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-07-22T00:00:00",
+      "delivered_at": "29/07/2025 00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 326.54
+  },
+  {
+    "delivery_id": "D00239",
+    "order_ref": "O00035",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "20/05/2025 00:00",
+      "delivered_at": "2025-05-27T00:00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 47.71
+  },
+  {
+    "delivery_id": "D00240",
+    "order_ref": "O00311",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "26/03/2025 00:00",
+      "delivered_at": "26/03/2025 00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Campinas"
+    },
+    "cost": 127.54
+  },
+  {
+    "delivery_id": "D00241",
+    "order_ref": "O00153",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "29/10/2025 00:00",
+      "delivered_at": "2025-11-09T00:00:00"
+    },
+    "destination": {
+      "state": "minas gerais",
+      "city": "Uberlândia"
+    },
+    "cost": 332.32
+  },
+  {
+    "delivery_id": "D00242",
+    "order_ref": "O00215",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "31/03/2025 00:00",
+      "delivered_at": "04/04/2025 00:00"
+    },
+    "destination": {
+      "state": "Sao Paulo",
+      "city": "Campinas"
+    },
+    "cost": 26.03
+  },
+  {
+    "delivery_id": "D00243",
+    "order_ref": "O00144",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "13/12/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Volta Redonda"
+    },
+    "cost": 59.52
+  },
+  {
+    "delivery_id": "D00244",
+    "order_ref": "O00030",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "11/04/2025 00:00",
+      "delivered_at": "12/04/2025 00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Blumenau"
+    },
+    "cost": 270.22
+  },
+  {
+    "delivery_id": "D00245",
+    "order_ref": "O00152",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "10/01/2026 00:00",
+      "delivered_at": "2026-01-17T00:00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Maringá"
+    },
+    "cost": 109.78
+  },
+  {
+    "delivery_id": "D00246",
+    "order_ref": "O00208",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-11-25T00:00:00",
+      "delivered_at": "05/12/2025 00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "São Paulo"
+    },
+    "cost": 315.23
+  },
+  {
+    "delivery_id": "D00247",
+    "order_ref": "O00122",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "01/07/2025 00:00",
+      "delivered_at": "2025-07-12T00:00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Joinville"
+    },
+    "cost": 121.84
+  },
+  {
+    "delivery_id": "D00248",
+    "order_ref": "O00227",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-11-22T00:00:00",
+      "delivered_at": "25/11/2025 00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": "unknown"
+  },
+  {
+    "delivery_id": "D00249",
+    "order_ref": "O00142",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-06-19T00:00:00",
+      "delivered_at": "2025-06-22T00:00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Niterói"
+    },
+    "cost": 159.78
+  },
+  {
+    "delivery_id": "D00250",
+    "order_ref": "O00156",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-09-16T00:00:00",
+      "delivered_at": "20/09/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Londrina"
+    },
+    "cost": 321.71
+  },
+  {
+    "delivery_id": "D00251",
+    "order_ref": "O00205",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-07-04T00:00:00",
+      "delivered_at": "08/07/2025 00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 171.54
+  },
+  {
+    "delivery_id": "D00252",
+    "order_ref": "o00031",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "14/11/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Contagem"
+    },
+    "cost": 212.56
+  },
+  {
+    "delivery_id": "D00253",
+    "order_ref": "O00305",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "17/03/2025 00:00",
+      "delivered_at": "2025-03-25T00:00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 30.71
+  },
+  {
+    "delivery_id": "D00254",
+    "order_ref": "O00082",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "11/06/2025 00:00",
+      "delivered_at": "18/06/2025 00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Curitiba"
+    },
+    "cost": 96.29
+  },
+  {
+    "delivery_id": "D00255",
+    "order_ref": "O00262",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "30/04/2025 00:00",
+      "delivered_at": "2025-04-30T00:00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Blumenau"
+    },
+    "cost": 230.56
+  },
+  {
+    "delivery_id": "D00256",
+    "order_ref": "O00391",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-10-31T00:00:00",
+      "delivered_at": "2025-11-07T00:00:00"
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 234.24
+  },
+  {
+    "delivery_id": "D00257",
+    "order_ref": "O00138",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2025-09-13T00:00:00",
+      "delivered_at": "2025-09-13T00:00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 51.18
+  },
+  {
+    "delivery_id": "D00258",
+    "order_ref": "O00369",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2026-02-22T00:00:00",
+      "delivered_at": "2026-02-23T00:00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Blumenau"
+    },
+    "cost": 187.49
+  },
+  {
+    "delivery_id": "D00259",
+    "order_ref": "O00368",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "25/08/2025 00:00",
+      "delivered_at": "31/08/2025 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 196.23
+  },
+  {
+    "delivery_id": "D00260",
+    "order_ref": "O00300",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "23/02/2026 00:00",
+      "delivered_at": "2026-02-27T00:00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 108.38
+  },
+  {
+    "delivery_id": "D00261",
+    "order_ref": "O00028",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "13/06/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 228.11
+  },
+  {
+    "delivery_id": "D00262",
+    "order_ref": "O00015",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-04-10T00:00:00",
+      "delivered_at": "2025-04-15T00:00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 259.33
+  },
+  {
+    "delivery_id": "D00263",
+    "order_ref": "O00077",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "09/01/2025 00:00",
+      "delivered_at": "16/01/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 138.92
+  },
+  {
+    "delivery_id": "D00264",
+    "order_ref": "O00265",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "08/02/2025 00:00",
+      "delivered_at": "13/02/2025 00:00"
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 35.1
+  },
+  {
+    "delivery_id": "D00265",
+    "order_ref": "O00279",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-11-28T00:00:00",
+      "delivered_at": "2025-12-04T00:00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Rio de Janeiro"
+    },
+    "cost": 284.64
+  },
+  {
+    "delivery_id": "D00266",
+    "order_ref": "O00098",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "05/10/2025 00:00",
+      "delivered_at": "2025-10-10T00:00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Blumenau"
+    },
+    "cost": 15.12
+  },
+  {
+    "delivery_id": "D00267",
+    "order_ref": "O00264",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2026-01-31T00:00:00",
+      "delivered_at": "08/02/2026 00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Campinas"
+    },
+    "cost": 191.66
+  },
+  {
+    "delivery_id": "D00268",
+    "order_ref": "O00240",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "18/10/2025 00:00",
+      "delivered_at": "2025-10-27T00:00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Curitiba"
+    },
+    "cost": 193.58
+  },
+  {
+    "delivery_id": "D00269",
+    "order_ref": "O00366",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "13/10/2025 00:00",
+      "delivered_at": "2025-10-21T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": 136.14
+  },
+  {
+    "delivery_id": "D00270",
+    "order_ref": "o00106",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "30/10/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "SP",
+      "city": "São Paulo"
+    },
+    "cost": 245.69
+  },
+  {
+    "delivery_id": "D00271",
+    "order_ref": "O00327",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "02/05/2025 00:00",
+      "delivered_at": "04/05/2025 00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Blumenau"
+    },
+    "cost": 200.08
+  },
+  {
+    "delivery_id": "D00272",
+    "order_ref": "O00094",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-04-06T00:00:00",
+      "delivered_at": "12/04/2025 00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 276.55
+  },
+  {
+    "delivery_id": "D00273",
+    "order_ref": "O00130",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "04/07/2025 00:00",
+      "delivered_at": "09/07/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Maringá"
+    },
+    "cost": 40.67
+  },
+  {
+    "delivery_id": "D00274",
+    "order_ref": "O00064",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2026-01-18T00:00:00",
+      "delivered_at": "2026-01-20T00:00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Contagem"
+    },
+    "cost": 238.81
+  },
+  {
+    "delivery_id": "D00275",
+    "order_ref": "O00236",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "27/11/2025 00:00",
+      "delivered_at": "2025-12-05T00:00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Campinas"
+    },
+    "cost": 70.19
+  },
+  {
+    "delivery_id": "D00276",
+    "order_ref": "O00180",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-03-14T00:00:00",
+      "delivered_at": "23/03/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 134.59
+  },
+  {
+    "delivery_id": "D00277",
+    "order_ref": "O00390",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "09/03/2025 00:00",
+      "delivered_at": "2025-03-10T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Londrina"
+    },
+    "cost": 275.03
+  },
+  {
+    "delivery_id": "D00278",
+    "order_ref": "O00053",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "06/03/2025 00:00",
+      "delivered_at": "2025-03-06T00:00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Maringá"
+    },
+    "cost": 16.14
+  },
+  {
+    "delivery_id": "D00279",
+    "order_ref": "O00321",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "11/01/2026 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Joinville"
+    },
+    "cost": "unknown"
+  },
+  {
+    "delivery_id": "D00280",
+    "order_ref": "O00004",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "28/01/2025 00:00",
+      "delivered_at": "2025-02-04T00:00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 217.75
+  },
+  {
+    "delivery_id": "D00281",
+    "order_ref": "O00037",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "05/01/2026 00:00",
+      "delivered_at": "2026-01-17T00:00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Volta Redonda"
+    },
+    "cost": 99.02
+  },
+  {
+    "delivery_id": "D00282",
+    "order_ref": "O00216",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "20/08/2025 00:00",
+      "delivered_at": "23/08/2025 00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Joinville"
+    },
+    "cost": 32.41
+  },
+  {
+    "delivery_id": "D00283",
+    "order_ref": "O00235",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "07/02/2026 00:00",
+      "delivered_at": "2026-02-12T00:00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Curitiba"
+    },
+    "cost": 296.91
+  },
+  {
+    "delivery_id": "D00284",
+    "order_ref": "O00237",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2026-02-18T00:00:00",
+      "delivered_at": "2026-02-19T00:00:00"
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 331.98
+  },
+  {
+    "delivery_id": "D00285",
+    "order_ref": "O00012",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2026-02-11T00:00:00",
+      "delivered_at": "18/02/2026 00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Joinville"
+    },
+    "cost": 211.84
+  },
+  {
+    "delivery_id": "D00286",
+    "order_ref": "O00112",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-12-15T00:00:00",
+      "delivered_at": "15/12/2025 00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Blumenau"
+    },
+    "cost": 121.26
+  },
+  {
+    "delivery_id": "D00287",
+    "order_ref": "O00189",
+    "carrier": {
+      "name": null,
+      "mode": null
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-05-31T00:00:00",
+      "delivered_at": "03/06/2025 00:00"
+    },
+    "destination": {
+      "state": "Sao Paulo",
+      "city": "São Paulo"
+    },
+    "cost": 212.36
+  },
+  {
+    "delivery_id": "D00288",
+    "order_ref": "o00068",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2025-05-23T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "SC",
+      "city": "Florianópolis"
+    },
+    "cost": 283.62
+  },
+  {
+    "delivery_id": "D00289",
+    "order_ref": "O00078",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "20/02/2026 00:00",
+      "delivered_at": "28/02/2026 00:00"
+    },
+    "destination": {
+      "state": "Santa Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 129.61
+  },
+  {
+    "delivery_id": "D00290",
+    "order_ref": "O00241",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-10-15T00:00:00",
+      "delivered_at": "2025-10-25T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Londrina"
+    },
+    "cost": 82.53
+  },
+  {
+    "delivery_id": "D00291",
+    "order_ref": "O00299",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "cancelled",
+    "timestamps": {
+      "shipped_at": "2026-02-06T00:00:00",
+      "delivered_at": "18/02/2026 00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Niterói"
+    },
+    "cost": 190.18
+  },
+  {
+    "delivery_id": "D00292",
+    "order_ref": "O00013",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "27/07/2025 00:00",
+      "delivered_at": "31/07/2025 00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Maringá"
+    },
+    "cost": 196.3
+  },
+  {
+    "delivery_id": "D00293",
+    "order_ref": "O00047",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "03/01/2026 00:00",
+      "delivered_at": "2026-01-07T00:00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Volta Redonda"
+    },
+    "cost": 339.48
+  },
+  {
+    "delivery_id": "D00294",
+    "order_ref": "O00258",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-06-02T00:00:00",
+      "delivered_at": "08/06/2025 00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Campinas"
+    },
+    "cost": 249.59
+  },
+  {
+    "delivery_id": "D00295",
+    "order_ref": "O00380",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "21/07/2025 00:00",
+      "delivered_at": "26/07/2025 00:00"
+    },
+    "destination": {
+      "state": "Minas Gerais",
+      "city": "Belo Horizonte"
+    },
+    "cost": 201.95
+  },
+  {
+    "delivery_id": "D00296",
+    "order_ref": "O00364",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2026-01-09T00:00:00",
+      "delivered_at": "2026-01-09T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Maringá"
+    },
+    "cost": 247.94
+  },
+  {
+    "delivery_id": "D00297",
+    "order_ref": "O00099",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2026-01-10T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Londrina"
+    },
+    "cost": 274.83
+  },
+  {
+    "delivery_id": "D00298",
+    "order_ref": "O00301",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "18/07/2025 00:00",
+      "delivered_at": "19/07/2025 00:00"
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Londrina"
+    },
+    "cost": 28.35
+  },
+  {
+    "delivery_id": "D00299",
+    "order_ref": "O00285",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "26/12/2025 00:00",
+      "delivered_at": "2025-12-28T00:00:00"
+    },
+    "destination": {
+      "state": "Sao Paulo",
+      "city": "Campinas"
+    },
+    "cost": 247.54
+  },
+  {
+    "delivery_id": "D00300",
+    "order_ref": "O00016",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-02-12T00:00:00",
+      "delivered_at": "2025-02-22T00:00:00"
+    },
+    "destination": {
+      "state": "SP",
+      "city": "Campinas"
+    },
+    "cost": 276.88
+  },
+  {
+    "delivery_id": "D00301",
+    "order_ref": "O00184",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-10-17T00:00:00",
+      "delivered_at": "2025-10-22T00:00:00"
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 124.67
+  },
+  {
+    "delivery_id": "D00302",
+    "order_ref": "O00074",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "04/01/2026 00:00",
+      "delivered_at": "2026-01-06T00:00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Niterói"
+    },
+    "cost": 24.9
+  },
+  {
+    "delivery_id": "D00303",
+    "order_ref": "O00229",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-09-10T00:00:00",
+      "delivered_at": "11/09/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 210.56
+  },
+  {
+    "delivery_id": "D00304",
+    "order_ref": "O00075",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "2025-07-07T00:00:00",
+      "delivered_at": "17/07/2025 00:00"
+    },
+    "destination": {
+      "state": "Sta Catarina",
+      "city": "Blumenau"
+    },
+    "cost": 221.49
+  },
+  {
+    "delivery_id": "D00305",
+    "order_ref": "O00178",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "05/06/2025 00:00",
+      "delivered_at": "17/06/2025 00:00"
+    },
+    "destination": {
+      "state": "santa catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 308.62
+  },
+  {
+    "delivery_id": "D00306",
+    "order_ref": "o00332",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "08/08/2025 00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "PR",
+      "city": "Maringá"
+    },
+    "cost": 319.35
+  },
+  {
+    "delivery_id": "D00307",
+    "order_ref": "O00007",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "rodoviario"
+    },
+    "delivery_status": "atrasado",
+    "timestamps": {
+      "shipped_at": "2025-04-24T00:00:00",
+      "delivered_at": "04/05/2025 00:00"
+    },
+    "destination": {
+      "state": "RJ",
+      "city": "Volta Redonda"
+    },
+    "cost": 125.76
+  },
+  {
+    "delivery_id": "D00308",
+    "order_ref": "O00212",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "24/01/2025 00:00",
+      "delivered_at": "29/01/2025 00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Contagem"
+    },
+    "cost": 14.44
+  },
+  {
+    "delivery_id": "D00309",
+    "order_ref": "O00325",
+    "carrier": {
+      "name": null,
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "10/01/2025 00:00",
+      "delivered_at": "16/01/2025 00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Londrina"
+    },
+    "cost": 24.99
+  },
+  {
+    "delivery_id": "D00310",
+    "order_ref": "O00071",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-12-23T00:00:00",
+      "delivered_at": "2025-12-26T00:00:00"
+    },
+    "destination": {
+      "state": "MG",
+      "city": "Uberlândia"
+    },
+    "cost": "unknown"
+  },
+  {
+    "delivery_id": "D00311",
+    "order_ref": "O00070",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "delivered",
+    "timestamps": {
+      "shipped_at": "07/06/2025 00:00",
+      "delivered_at": "16/06/2025 00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Niterói"
+    },
+    "cost": 267.98
+  },
+  {
+    "delivery_id": "D00312",
+    "order_ref": "O00170",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "22/03/2025 00:00",
+      "delivered_at": "2025-03-27T00:00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Niterói"
+    },
+    "cost": 82.26
+  },
+  {
+    "delivery_id": "D00313",
+    "order_ref": "O00242",
+    "carrier": {
+      "name": "LogFast",
+      "mode": null
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "14/07/2025 00:00",
+      "delivered_at": "2025-07-19T00:00:00"
+    },
+    "destination": {
+      "state": "rio de janeiro",
+      "city": "Volta Redonda"
+    },
+    "cost": 96.62
+  },
+  {
+    "delivery_id": "D00314",
+    "order_ref": "O00198",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "26/10/2025 00:00",
+      "delivered_at": "26/10/2025 00:00"
+    },
+    "destination": {
+      "state": "São Paulo",
+      "city": "São Paulo"
+    },
+    "cost": 15.18
+  },
+  {
+    "delivery_id": "D00315",
+    "order_ref": "O00316",
+    "carrier": {
+      "name": "TransSul",
+      "mode": null
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2026-02-08T00:00:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": 11.91
+  },
+  {
+    "delivery_id": "D00316",
+    "order_ref": "O00192",
+    "carrier": {
+      "name": null,
+      "mode": "rodoviario"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "2026-01-27T00:00:00",
+      "delivered_at": "2026-02-04T00:00:00"
+    },
+    "destination": {
+      "state": "Paraná",
+      "city": "Curitiba"
+    },
+    "cost": 140.57
+  },
+  {
+    "delivery_id": "D00317",
+    "order_ref": "O00199",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "rodoviario"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "16/08/2025 00:00",
+      "delivered_at": "19/08/2025 00:00"
+    },
+    "destination": {
+      "state": "Sao Paulo",
+      "city": "Ribeirão Preto"
+    },
+    "cost": 199.2
+  },
+  {
+    "delivery_id": "D00318",
+    "order_ref": "O00085",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "in_transit",
+    "timestamps": {
+      "shipped_at": "06/10/2025 00:00",
+      "delivered_at": "13/10/2025 00:00"
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Niterói"
+    },
+    "cost": 25.78
+  },
+  {
+    "delivery_id": "D00319",
+    "order_ref": "O00245",
+    "carrier": {
+      "name": "TransSul",
+      "mode": "Aéreo"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "04/05/2025 00:00",
+      "delivered_at": "10/05/2025 00:00"
+    },
+    "destination": {
+      "state": "sao paulo",
+      "city": "São Paulo"
+    },
+    "cost": 96.98
+  },
+  {
+    "delivery_id": "D00320",
+    "order_ref": "O00052",
+    "carrier": {
+      "name": "LogFast",
+      "mode": "Rodoviário"
+    },
+    "delivery_status": "Delivered",
+    "timestamps": {
+      "shipped_at": "2025-08-26T00:00:00",
+      "delivered_at": "2025-08-26T00:00:00"
+    },
+    "destination": {
+      "state": "parana",
+      "city": "Curitiba"
+    },
+    "cost": 86.72
+  },
+  {
+    "delivery_id": "D00004",
+    "order_ref": "O99999",
+    "carrier": {
+      "name": null,
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "2025-02-23T00:00:00",
+      "delivered_at": "2025-03-05T00:00:00"
+    },
+    "destination": {
+      "state": "S. Catarina",
+      "city": "Florianópolis"
+    },
+    "cost": 346.48
+  },
+  {
+    "delivery_id": "D00021",
+    "order_ref": "O00185",
+    "carrier": {
+      "name": "EntregaJá",
+      "mode": "Aéreo"
+    },
+    "delivery_status": null,
+    "timestamps": {
+      "shipped_at": "31/02/2025 10:00",
+      "delivered_at": null
+    },
+    "destination": {
+      "state": "Rio de Janeiro",
+      "city": "Niterói"
+    },
+    "cost": 170.43
+  }
+]

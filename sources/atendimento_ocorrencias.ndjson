@@ -1,0 +1,270 @@
+{"ticket_id": "T00001", "order_id": "O00385", "event_type": "refund", "created_at": "2025-01-04 05:00:00", "severity": "High", "status": "closed"}
+{"ticket_id": "T00002", "order_id": "O00051", "event_type": "troca", "created_at": "2026/02/12", "severity": "medium", "status": "open"}
+{"ticket_id": "T00003", "order_id": "O00181", "event_type": "refund", "created_at": "2026/02/07", "severity": null, "status": null}
+{"ticket_id": "T00004", "order_id": "O00371", "event_type": "delay", "created_at": "2025/12/18", "severity": "low", "status": null}
+{"ticket_id": "T00005", "order_id": "O00055", "event_type": null, "created_at": "27/02/2025 16:00", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00006", "order_id": "O00171", "event_type": "refund", "created_at": "2025/10/09", "severity": null, "status": "Open"}
+{"ticket_id": "T00007", "order_id": "O00292", "event_type": "troca", "created_at": "26/08/2025 22:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00008", "order_id": "O00196", "event_type": "refund", "created_at": "2025/09/22", "severity": "low", "status": "Open"}
+{"ticket_id": "T00009", "order_id": "O00122", "event_type": "complaint", "created_at": "2025/10/01", "severity": "medium", "status": "open"}
+{"ticket_id": "T00010", "order_id": "O00281", "event_type": "complaint", "created_at": "2025/11/08", "severity": null, "status": null}
+{"ticket_id": "T00011", "order_id": "O00089", "event_type": null, "created_at": "18/09/2025 08:00", "severity": "high", "status": "open"}
+{"ticket_id": "T00012", "order_id": "O00337", "event_type": "delay", "created_at": "2025-09-21 04:00:00", "severity": "High", "status": "closed"}
+{"ticket_id": "T00013", "order_id": "O00001", "event_type": "delay", "created_at": "2025-04-01 17:00:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00014", "order_id": "o00275", "event_type": "Delay", "created_at": "2025-11-17 07:00:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00015", "order_id": "O00130", "event_type": "delay", "created_at": "23/05/2025 08:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00016", "order_id": "O00375", "event_type": "Delay", "created_at": "2026/01/19", "severity": "low", "status": "open"}
+{"ticket_id": "T00017", "order_id": "O00216", "event_type": "cancel_request", "created_at": "2025/10/23", "severity": "medium", "status": "open", "metadata": {"channel": "portal", "sla_hours": 8}}
+{"ticket_id": "T00018", "order_id": "O00377", "event_type": "troca", "created_at": "2026-01-12 00:00:00", "severity": "low", "status": "closed"}
+{"ticket_id": "T00019", "order_id": "O00026", "event_type": "cancel_request", "created_at": "2026-01-01 22:00:00", "severity": "medium", "status": "closed"}
+{"ticket_id": "T00020", "order_id": "O00067", "event_type": "troca", "created_at": "13/08/2025 15:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00021", "order_id": "O00125", "event_type": "cancel_request", "created_at": "2026-01-03 06:00:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00022", "order_id": "O00214", "event_type": "cancel_request", "created_at": "25/01/2025 13:00", "severity": "High", "status": "closed"}
+{"ticket_id": "T00023", "order_id": "O00002", "event_type": "troca", "created_at": "27/02/2026 01:00", "severity": null, "status": "closed"}
+{"ticket_id": "T00024", "order_id": "O00226", "event_type": "complaint", "created_at": "24/08/2025 11:00", "severity": null, "status": "open"}
+{"ticket_id": "T00025", "order_id": "O00313", "event_type": "refund", "created_at": "2025-04-25 04:00:00", "severity": "low", "status": "closed"}
+{"ticket_id": "T00026", "order_id": "O00307", "event_type": "delay", "created_at": "2025/08/01", "severity": "low", "status": null}
+{"ticket_id": "T00027", "order_id": "O00153", "event_type": "complaint", "created_at": "2025-11-08 01:00:00", "severity": null, "status": "closed"}
+{"ticket_id": "T00028", "order_id": "o00062", "event_type": null, "created_at": "2025-01-15 08:00:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00029", "order_id": "O00035", "event_type": "refund", "created_at": "2025-07-18 12:00:00", "severity": "medium", "status": "open", "customer_code": "C0001"}
+{"ticket_id": "T00030", "order_id": "O00061", "event_type": "complaint", "created_at": "2025/09/07", "severity": "low", "status": "Open"}
+{"ticket_id": "T00031", "order_id": "O00208", "event_type": "refund", "created_at": "08/07/2025 13:00", "severity": "High", "status": "open"}
+{"ticket_id": "T00032", "order_id": "O00197", "event_type": "Delay", "created_at": "2025-12-25 12:00:00", "severity": "low", "status": null}
+{"ticket_id": "T00033", "order_id": "O00186", "event_type": "cancel_request", "created_at": "2025/01/31", "severity": "high", "status": "Open"}
+{"ticket_id": "T00034", "order_id": "O00154", "event_type": "troca", "created_at": "19/01/2025 14:00", "severity": "High", "status": "closed", "metadata": {"channel": "portal", "sla_hours": 24}}
+{"ticket_id": "T00035", "order_id": "O00310", "event_type": null, "created_at": "2025-04-07 22:00:00", "severity": null, "status": null}
+{"ticket_id": "T00036", "order_id": "O00177", "event_type": "delay", "created_at": "2025/06/04", "severity": "High", "status": "closed"}
+{"ticket_id": "T00037", "order_id": "O00233", "event_type": "Delay", "created_at": "08/03/2025 05:00", "severity": "medium", "status": null}
+{"ticket_id": "T00038", "order_id": "O00061", "event_type": "delay", "created_at": "01/06/2025 04:00", "severity": "medium", "status": null}
+{"ticket_id": "T00039", "order_id": "O00341", "event_type": "Delay", "created_at": "01/03/2026 23:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00040", "order_id": "O00137", "event_type": "troca", "created_at": "2025/03/19", "severity": null, "status": "open"}
+{"ticket_id": "T00041", "order_id": "O00274", "event_type": "troca", "created_at": "2025/09/10", "severity": null, "status": "open"}
+{"ticket_id": "T00042", "order_id": "o00379", "event_type": "refund", "created_at": "2025/07/28", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00043", "order_id": "O00365", "event_type": "delay", "created_at": "2025/12/03", "severity": "High", "status": "Open"}
+{"ticket_id": "T00044", "order_id": "O00113", "event_type": "Delay", "created_at": "2025-10-14 10:00:00", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00045", "order_id": "O00236", "event_type": "Delay", "created_at": "2025-07-07 21:00:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00046", "order_id": "O00116", "event_type": "Delay", "created_at": "2025-05-14 06:00:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00047", "order_id": "O00041", "event_type": "troca", "created_at": "2026/03/04", "severity": null, "status": null}
+{"ticket_id": "T00048", "order_id": "O00208", "event_type": "delay", "created_at": "11/07/2025 23:00", "severity": "high", "status": null}
+{"ticket_id": "T00049", "order_id": "O00399", "event_type": "troca", "created_at": "2025/07/19", "severity": "high", "status": null}
+{"ticket_id": "T00050", "order_id": "O00170", "event_type": null, "created_at": "2025/08/21", "severity": "high", "status": "Open"}
+{"ticket_id": "T00051", "order_id": "O00103", "event_type": "cancel_request", "created_at": "03/05/2025 13:00", "severity": null, "status": null, "metadata": {"channel": "phone", "sla_hours": null}}
+{"ticket_id": "T00052", "order_id": "O00198", "event_type": "troca", "created_at": "01/11/2025 16:00", "severity": "low", "status": null}
+{"ticket_id": "T00053", "order_id": "O00107", "event_type": "cancel_request", "created_at": "2025-03-06 02:00:00", "severity": "high", "status": "Open"}
+{"ticket_id": "T00054", "order_id": "O00190", "event_type": "delay", "created_at": "2025-10-02 22:00:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00055", "order_id": "O00317", "event_type": "cancel_request", "created_at": "18/09/2025 02:00", "severity": "medium", "status": null}
+{"ticket_id": "T00056", "order_id": "o00306", "event_type": "Delay", "created_at": "2025/06/15", "severity": "High", "status": null}
+{"ticket_id": "T00057", "order_id": "O00155", "event_type": null, "created_at": "2025-08-17 05:00:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00058", "order_id": "O00233", "event_type": null, "created_at": "2025-05-22 04:00:00", "severity": "high", "status": "open", "customer_code": "C9999"}
+{"ticket_id": "T00059", "order_id": "O00093", "event_type": "complaint", "created_at": "2025-03-04 09:00:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00060", "order_id": "O00127", "event_type": null, "created_at": "2025-03-22 13:00:00", "severity": "high", "status": "Open"}
+{"ticket_id": "T00061", "order_id": "O00159", "event_type": "Delay", "created_at": "03/01/2026 01:00", "severity": null, "status": null}
+{"ticket_id": "T00062", "order_id": "O00113", "event_type": "troca", "created_at": "2026-01-30 14:00:00", "severity": "low", "status": "open"}
+{"ticket_id": "T00063", "order_id": "O00016", "event_type": "refund", "created_at": "2025/11/27", "severity": "low", "status": null}
+{"ticket_id": "T00064", "order_id": "O00272", "event_type": null, "created_at": "2025-07-02 05:00:00", "severity": "low", "status": "open"}
+{"ticket_id": "T00065", "order_id": "O00189", "event_type": "troca", "created_at": "2025-10-09 14:00:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00066", "order_id": "O00163", "event_type": "Delay", "created_at": "2025/04/18", "severity": "high", "status": "closed"}
+{"ticket_id": "T00067", "order_id": "O00222", "event_type": "refund", "created_at": "13/02/2026 14:00", "severity": "high", "status": null}
+{"ticket_id": "T00068", "order_id": "O00025", "event_type": "delay", "created_at": "2025/09/12", "severity": "medium", "status": "open", "metadata": {"channel": "portal", "sla_hours": null}}
+{"ticket_id": "T00069", "order_id": "O00175", "event_type": "troca", "created_at": "2026-02-25 04:00:00", "severity": "High", "status": null}
+{"ticket_id": "T00070", "order_id": "o00232", "event_type": "Delay", "created_at": "23/10/2025 13:00", "severity": "high", "status": null}
+{"ticket_id": "T00071", "order_id": "O00097", "event_type": "Delay", "created_at": "2025-08-28 00:00:00", "severity": "high", "status": "open"}
+{"ticket_id": "T00072", "order_id": "O00331", "event_type": null, "created_at": "2025/01/24", "severity": "high", "status": "closed"}
+{"ticket_id": "T00073", "order_id": "O00225", "event_type": "refund", "created_at": "02/02/2025 00:00", "severity": "high", "status": "open"}
+{"ticket_id": "T00074", "order_id": "O00019", "event_type": "delay", "created_at": "2025/03/19", "severity": "medium", "status": "closed"}
+{"ticket_id": "T00075", "order_id": "O00034", "event_type": "cancel_request", "created_at": "06/04/2025 10:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00076", "order_id": "O00218", "event_type": "delay", "created_at": "2025-11-06 09:00:00", "severity": null, "status": "open"}
+{"ticket_id": "T00077", "order_id": "O00394", "event_type": "Delay", "created_at": "2026/01/26", "severity": "low", "status": null}
+{"ticket_id": "T00078", "order_id": "O00085", "event_type": "delay", "created_at": "2025-04-12 03:00:00", "severity": "High", "status": "Open"}
+{"ticket_id": "T00079", "order_id": "O00180", "event_type": "troca", "created_at": "20/03/2025 16:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00080", "order_id": "O00308", "event_type": "troca", "created_at": "2025/04/06", "severity": "High", "status": "closed"}
+{"ticket_id": "T00081", "order_id": "O00177", "event_type": "Delay", "created_at": "2026/01/04", "severity": "high", "status": "closed"}
+{"ticket_id": "T00082", "order_id": "O00121", "event_type": "Delay", "created_at": "2025/03/28", "severity": "High", "status": "closed"}
+{"ticket_id": "T00083", "order_id": "O00359", "event_type": "refund", "created_at": "2025/04/08", "severity": null, "status": "closed"}
+{"ticket_id": "T00084", "order_id": "o00001", "event_type": "cancel_request", "created_at": "2025/07/06", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00085", "order_id": "O00116", "event_type": "Delay", "created_at": "27/04/2025 13:00", "severity": "low", "status": "Open", "metadata": {"channel": "email", "sla_hours": null}}
+{"ticket_id": "T00086", "order_id": "O00204", "event_type": "delay", "created_at": "26/01/2025 17:00", "severity": "low", "status": "closed"}
+{"ticket_id": "T00087", "order_id": "O00200", "event_type": "refund", "created_at": "2025/09/12", "severity": "medium", "status": "closed", "customer_code": "C9999"}
+{"ticket_id": "T00088", "order_id": "O00020", "event_type": "delay", "created_at": "2025-01-08 15:00:00", "severity": "medium", "status": null}
+{"ticket_id": "T00089", "order_id": "O00052", "event_type": "cancel_request", "created_at": "2025-11-27 17:00:00", "severity": null, "status": "closed"}
+{"ticket_id": "T00090", "order_id": "O00362", "event_type": "delay", "created_at": "2025/09/10", "severity": "High", "status": "Open"}
+{"ticket_id": "T00091", "order_id": "O00274", "event_type": null, "created_at": "13/05/2025 12:00", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00092", "order_id": "O00227", "event_type": null, "created_at": "2025-05-15 04:00:00", "severity": "medium", "status": "closed"}
+{"ticket_id": "T00093", "order_id": "O00354", "event_type": "Delay", "created_at": "2025/03/14", "severity": null, "status": "open"}
+{"ticket_id": "T00094", "order_id": "O00325", "event_type": "delay", "created_at": "22/01/2026 19:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00095", "order_id": "O00178", "event_type": "refund", "created_at": "2025/12/10", "severity": "medium", "status": "closed"}
+{"ticket_id": "T00096", "order_id": "O00092", "event_type": "troca", "created_at": "2025-07-01 12:00:00", "severity": "High", "status": "closed"}
+{"ticket_id": "T00097", "order_id": "O00317", "event_type": "cancel_request", "created_at": "2025/04/19", "severity": "low", "status": null}
+{"ticket_id": "T00098", "order_id": "o00125", "event_type": null, "created_at": "22/11/2025 23:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00099", "order_id": "O00332", "event_type": "delay", "created_at": "30/09/2025 01:00", "severity": "High", "status": null}
+{"ticket_id": "T00100", "order_id": "O00142", "event_type": "delay", "created_at": "2026-02-28 07:00:00", "severity": "High", "status": "Open"}
+{"ticket_id": "T00101", "order_id": "O00118", "event_type": null, "created_at": "2025-10-14 09:00:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00102", "order_id": "O00077", "event_type": "delay", "created_at": "2025-12-04 02:00:00", "severity": "High", "status": "closed", "metadata": {"channel": "phone", "sla_hours": 4}}
+{"ticket_id": "T00103", "order_id": "O00261", "event_type": null, "created_at": "27/05/2025 21:00", "severity": "medium", "status": null}
+{"ticket_id": "T00104", "order_id": "O00337", "event_type": "cancel_request", "created_at": "17/07/2025 02:00", "severity": "high", "status": null}
+{"ticket_id": "T00105", "order_id": "O00024", "event_type": "cancel_request", "created_at": "2025/06/13", "severity": "low", "status": "closed"}
+{"ticket_id": "T00106", "order_id": "O00321", "event_type": "troca", "created_at": "2025-02-04 11:00:00", "severity": "High", "status": "Open"}
+{"ticket_id": "T00107", "order_id": "O00037", "event_type": "delay", "created_at": "17/10/2025 21:00", "severity": "high", "status": null}
+{"ticket_id": "T00108", "order_id": "O00140", "event_type": "delay", "created_at": "2025-10-19 21:00:00", "severity": null, "status": null}
+{"ticket_id": "T00109", "order_id": "O00304", "event_type": "Delay", "created_at": "30/10/2025 10:00", "severity": null, "status": null}
+{"ticket_id": "T00110", "order_id": "O00184", "event_type": null, "created_at": "05/04/2025 01:00", "severity": "low", "status": "closed"}
+{"ticket_id": "T00111", "order_id": "O00010", "event_type": "cancel_request", "created_at": "2025-03-28 13:00:00", "severity": "low", "status": "open"}
+{"ticket_id": "T00112", "order_id": "o00319", "event_type": null, "created_at": "2025-11-30 15:00:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00113", "order_id": "O00077", "event_type": "cancel_request", "created_at": "2025/02/07", "severity": "medium", "status": null}
+{"ticket_id": "T00114", "order_id": "O00318", "event_type": "complaint", "created_at": "2025/08/25", "severity": "High", "status": null}
+{"ticket_id": "T00115", "order_id": "O00019", "event_type": "refund", "created_at": "2025-09-25 15:00:00", "severity": "low", "status": "closed"}
+{"ticket_id": "T00116", "order_id": "O00219", "event_type": "complaint", "created_at": "2025-09-05 07:00:00", "severity": null, "status": "closed", "customer_code": "C0001"}
+{"ticket_id": "T00117", "order_id": "O00225", "event_type": "troca", "created_at": "2025-07-19 21:00:00", "severity": "High", "status": "Open"}
+{"ticket_id": "T00118", "order_id": "O00357", "event_type": "refund", "created_at": "2025/09/29", "severity": "High", "status": null}
+{"ticket_id": "T00119", "order_id": "O00181", "event_type": "Delay", "created_at": "2026-03-07 20:00:00", "severity": null, "status": "Open", "metadata": {"channel": "email", "sla_hours": 4}}
+{"ticket_id": "T00120", "order_id": "O00309", "event_type": "delay", "created_at": "19/11/2025 12:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00121", "order_id": "O00016", "event_type": "refund", "created_at": "2025/12/11", "severity": "high", "status": "closed"}
+{"ticket_id": "T00122", "order_id": "O00120", "event_type": "delay", "created_at": "2025-03-16 01:00:00", "severity": "low", "status": "open"}
+{"ticket_id": "T00123", "order_id": "O00181", "event_type": null, "created_at": "13/01/2025 11:00", "severity": "High", "status": "Open"}
+{"ticket_id": "T00124", "order_id": "O00145", "event_type": "refund", "created_at": "24/11/2025 14:00", "severity": "High", "status": "open"}
+{"ticket_id": "T00125", "order_id": "O00365", "event_type": "delay", "created_at": "01/01/2025 04:00", "severity": null, "status": null}
+{"ticket_id": "T00126", "order_id": "o00203", "event_type": "cancel_request", "created_at": "2025/06/08", "severity": "High", "status": null}
+{"ticket_id": "T00127", "order_id": "O00206", "event_type": "cancel_request", "created_at": "2025/10/21", "severity": "High", "status": "Open"}
+{"ticket_id": "T00128", "order_id": "O00046", "event_type": "complaint", "created_at": "22/02/2026 06:00", "severity": "high", "status": null}
+{"ticket_id": "T00129", "order_id": "O00354", "event_type": "delay", "created_at": "2025-05-12 10:00:00", "severity": "low", "status": null}
+{"ticket_id": "T00130", "order_id": "O00126", "event_type": "cancel_request", "created_at": "2025-06-11 22:00:00", "severity": "High", "status": "closed"}
+{"ticket_id": "T00131", "order_id": "O00020", "event_type": "refund", "created_at": "14/01/2026 12:00", "severity": null, "status": null}
+{"ticket_id": "T00132", "order_id": "O00316", "event_type": "Delay", "created_at": "2025-08-26 14:00:00", "severity": "low", "status": "Open"}
+{"ticket_id": "T00133", "order_id": "O00071", "event_type": "refund", "created_at": "2025-12-23 12:00:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00134", "order_id": "O00026", "event_type": "troca", "created_at": "09/07/2025 18:00", "severity": "low", "status": "closed"}
+{"ticket_id": "T00135", "order_id": "O00189", "event_type": "cancel_request", "created_at": "2025/02/26", "severity": "medium", "status": null}
+{"ticket_id": "T00136", "order_id": "O00212", "event_type": "troca", "created_at": "16/04/2025 13:00", "severity": "medium", "status": "open", "metadata": {"channel": "phone", "sla_hours": 24}}
+{"ticket_id": "T00137", "order_id": "O00269", "event_type": "refund", "created_at": "14/10/2025 18:00", "severity": null, "status": null}
+{"ticket_id": "T00138", "order_id": "O00179", "event_type": "cancel_request", "created_at": "31/07/2025 21:00", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00139", "order_id": "O00170", "event_type": null, "created_at": "2025/05/15", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00140", "order_id": "o00364", "event_type": "cancel_request", "created_at": "07/02/2026 02:00", "severity": null, "status": "open"}
+{"ticket_id": "T00141", "order_id": "O00203", "event_type": "refund", "created_at": "2025-11-05 18:00:00", "severity": null, "status": "closed"}
+{"ticket_id": "T00142", "order_id": "O00362", "event_type": null, "created_at": "2025/05/13", "severity": "High", "status": "Open"}
+{"ticket_id": "T00143", "order_id": "O00116", "event_type": "refund", "created_at": "19/05/2025 13:00", "severity": "low", "status": "closed"}
+{"ticket_id": "T00144", "order_id": "O00075", "event_type": "Delay", "created_at": "25/01/2025 18:00", "severity": null, "status": null}
+{"ticket_id": "T00145", "order_id": "O00066", "event_type": "refund", "created_at": "2026/01/06", "severity": "medium", "status": "Open", "customer_code": "C0001"}
+{"ticket_id": "T00146", "order_id": "O00128", "event_type": "Delay", "created_at": "2025/02/23", "severity": "High", "status": "closed"}
+{"ticket_id": "T00147", "order_id": "O00032", "event_type": "troca", "created_at": "30/03/2025 03:00", "severity": "low", "status": null}
+{"ticket_id": "T00148", "order_id": "O00168", "event_type": "cancel_request", "created_at": "2025-09-23 11:00:00", "severity": "high", "status": null}
+{"ticket_id": "T00149", "order_id": "O00190", "event_type": "cancel_request", "created_at": "2025-08-30 18:00:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00150", "order_id": "O00126", "event_type": "delay", "created_at": "22/01/2025 09:00", "severity": null, "status": null}
+{"ticket_id": "T00151", "order_id": "O00156", "event_type": "complaint", "created_at": "2025/02/02", "severity": null, "status": "closed"}
+{"ticket_id": "T00152", "order_id": "O00291", "event_type": "delay", "created_at": "2026-02-26 00:00:00", "severity": "high", "status": "open"}
+{"ticket_id": "T00153", "order_id": "O00070", "event_type": null, "created_at": "2025/02/28", "severity": "High", "status": "Open", "metadata": {"channel": "phone", "sla_hours": 24}}
+{"ticket_id": "T00154", "order_id": "o00271", "event_type": "troca", "created_at": "2025-11-01 12:00:00", "severity": "high", "status": "Open"}
+{"ticket_id": "T00155", "order_id": "O00322", "event_type": "troca", "created_at": "2026-03-06 15:00:00", "severity": null, "status": null}
+{"ticket_id": "T00156", "order_id": "O00041", "event_type": "refund", "created_at": "2025-11-09 06:00:00", "severity": "high", "status": "Open"}
+{"ticket_id": "T00157", "order_id": "O00283", "event_type": "cancel_request", "created_at": "2025/04/07", "severity": "high", "status": null}
+{"ticket_id": "T00158", "order_id": "O00199", "event_type": "Delay", "created_at": "2025-02-13 02:00:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00159", "order_id": "O00025", "event_type": "Delay", "created_at": "2025-06-01 05:00:00", "severity": "High", "status": "closed"}
+{"ticket_id": "T00160", "order_id": "O00344", "event_type": "troca", "created_at": "2025-03-11 01:00:00", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00161", "order_id": "O00235", "event_type": "cancel_request", "created_at": "04/04/2025 08:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00162", "order_id": "O00010", "event_type": "cancel_request", "created_at": "29/04/2025 21:00", "severity": null, "status": null}
+{"ticket_id": "T00163", "order_id": "O00259", "event_type": "troca", "created_at": "2025/12/21", "severity": "High", "status": "open"}
+{"ticket_id": "T00164", "order_id": "O00017", "event_type": "refund", "created_at": "10/02/2026 20:00", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00165", "order_id": "O00196", "event_type": null, "created_at": "2025-10-26 01:00:00", "severity": "low", "status": null}
+{"ticket_id": "T00166", "order_id": "O00225", "event_type": "cancel_request", "created_at": "02/02/2025 14:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00167", "order_id": "O00155", "event_type": "Delay", "created_at": "2026-03-07 10:00:00", "severity": "medium", "status": "closed"}
+{"ticket_id": "T00168", "order_id": "o00275", "event_type": null, "created_at": "2026-02-10 11:00:00", "severity": "medium", "status": "closed"}
+{"ticket_id": "T00169", "order_id": "O00287", "event_type": "refund", "created_at": "24/05/2025 13:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00170", "order_id": "O00230", "event_type": null, "created_at": "2025-06-22 23:00:00", "severity": "medium", "status": "closed", "metadata": {"channel": "email", "sla_hours": 8}}
+{"ticket_id": "T00171", "order_id": "O00320", "event_type": null, "created_at": "2025-04-30 00:00:00", "severity": "low", "status": "closed"}
+{"ticket_id": "T00172", "order_id": "O00170", "event_type": "complaint", "created_at": "2025-10-21 03:00:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00173", "order_id": "O00118", "event_type": "delay", "created_at": "23/04/2025 06:00", "severity": "High", "status": null}
+{"ticket_id": "T00174", "order_id": "O00226", "event_type": "delay", "created_at": "2026-01-11 22:00:00", "severity": "High", "status": null, "customer_code": "C9999"}
+{"ticket_id": "T00175", "order_id": "O00006", "event_type": "complaint", "created_at": "07/08/2025 04:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00176", "order_id": "O00385", "event_type": null, "created_at": "2025/06/11", "severity": "low", "status": "closed"}
+{"ticket_id": "T00177", "order_id": "O00143", "event_type": "troca", "created_at": "2025-07-09 06:00:00", "severity": "low", "status": "closed"}
+{"ticket_id": "T00178", "order_id": "O00119", "event_type": "troca", "created_at": "25/10/2025 17:00", "severity": "High", "status": "closed"}
+{"ticket_id": "T00179", "order_id": "O00121", "event_type": "delay", "created_at": "2025/04/21", "severity": "medium", "status": "open"}
+{"ticket_id": "T00180", "order_id": "O00066", "event_type": "refund", "created_at": "2025-06-01 14:00:00", "severity": null, "status": "open"}
+{"ticket_id": "T00181", "order_id": "O00047", "event_type": "complaint", "created_at": "2026-01-03 05:00:00", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00182", "order_id": "o00027", "event_type": "cancel_request", "created_at": "2025/01/30", "severity": "High", "status": "Open"}
+{"ticket_id": "T00183", "order_id": "O00339", "event_type": "refund", "created_at": "2025-08-25 23:00:00", "severity": "High", "status": null}
+{"ticket_id": "T00184", "order_id": "O00165", "event_type": null, "created_at": "2025-05-14 13:00:00", "severity": null, "status": "closed"}
+{"ticket_id": "T00185", "order_id": "O00136", "event_type": "delay", "created_at": "2025/07/17", "severity": null, "status": "closed"}
+{"ticket_id": "T00186", "order_id": "O00275", "event_type": null, "created_at": "2025/08/14", "severity": "High", "status": "closed"}
+{"ticket_id": "T00187", "order_id": "O00174", "event_type": "refund", "created_at": "2025-02-02 05:00:00", "severity": "high", "status": "open", "metadata": {"channel": "portal", "sla_hours": 24}}
+{"ticket_id": "T00188", "order_id": "O00198", "event_type": "complaint", "created_at": "24/01/2026 17:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00189", "order_id": "O00127", "event_type": "complaint", "created_at": "2025-05-08 20:00:00", "severity": "High", "status": "open"}
+{"ticket_id": "T00190", "order_id": "O00096", "event_type": "delay", "created_at": "2025-03-08 02:00:00", "severity": "low", "status": "open"}
+{"ticket_id": "T00191", "order_id": "O00272", "event_type": "complaint", "created_at": "2025-09-20 01:00:00", "severity": "high", "status": null}
+{"ticket_id": "T00192", "order_id": "O00381", "event_type": "refund", "created_at": "2025-01-26 21:00:00", "severity": "High", "status": "open"}
+{"ticket_id": "T00193", "order_id": "O00249", "event_type": "cancel_request", "created_at": "2025/12/22", "severity": "medium", "status": "closed"}
+{"ticket_id": "T00194", "order_id": "O00181", "event_type": "delay", "created_at": "2025/10/28", "severity": "high", "status": "Open"}
+{"ticket_id": "T00195", "order_id": "O00092", "event_type": "refund", "created_at": "2025-06-12 23:00:00", "severity": "High", "status": "open"}
+{"ticket_id": "T00196", "order_id": "o00089", "event_type": "Delay", "created_at": "14/03/2025 15:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00197", "order_id": "O00113", "event_type": "refund", "created_at": "2025-08-21 05:00:00", "severity": "low", "status": "Open"}
+{"ticket_id": "T00198", "order_id": "O00149", "event_type": "Delay", "created_at": "15/03/2025 03:00", "severity": "medium", "status": null}
+{"ticket_id": "T00199", "order_id": "O00348", "event_type": "cancel_request", "created_at": "2025/12/17", "severity": "High", "status": "closed"}
+{"ticket_id": "T00200", "order_id": "O00100", "event_type": "troca", "created_at": "2026/01/12", "severity": null, "status": "closed"}
+{"ticket_id": "T00201", "order_id": "O00104", "event_type": "cancel_request", "created_at": "31/05/2025 09:00", "severity": "low", "status": "Open"}
+{"ticket_id": "T00202", "order_id": "O00258", "event_type": null, "created_at": "2025/09/23", "severity": null, "status": "Open"}
+{"ticket_id": "T00203", "order_id": "O00007", "event_type": "cancel_request", "created_at": "2025-08-26 00:00:00", "severity": "low", "status": "Open", "customer_code": null}
+{"ticket_id": "T00204", "order_id": "O00350", "event_type": "complaint", "created_at": "2026/01/28", "severity": "high", "status": "open", "metadata": {"channel": "portal", "sla_hours": 24}}
+{"ticket_id": "T00205", "order_id": "O00098", "event_type": null, "created_at": "16/12/2025 14:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00206", "order_id": "O00204", "event_type": "complaint", "created_at": "2025-11-21 21:00:00", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00207", "order_id": "O00213", "event_type": "Delay", "created_at": "18/05/2025 05:00", "severity": "High", "status": null}
+{"ticket_id": "T00208", "order_id": "O00164", "event_type": null, "created_at": "29/03/2025 05:00", "severity": null, "status": "closed"}
+{"ticket_id": "T00209", "order_id": "O00009", "event_type": "complaint", "created_at": "11/02/2025 12:00", "severity": null, "status": "open"}
+{"ticket_id": "T00210", "order_id": "o00073", "event_type": null, "created_at": "2025-11-06 04:00:00", "severity": "high", "status": "closed"}
+{"ticket_id": "T00211", "order_id": "O00078", "event_type": "refund", "created_at": "2025-05-27 03:00:00", "severity": "high", "status": null}
+{"ticket_id": "T00212", "order_id": "O00112", "event_type": "delay", "created_at": "19/03/2025 18:00", "severity": "high", "status": null}
+{"ticket_id": "T00213", "order_id": "O00120", "event_type": "complaint", "created_at": "2025/05/06", "severity": "medium", "status": null}
+{"ticket_id": "T00214", "order_id": "O00089", "event_type": null, "created_at": "15/11/2025 23:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00215", "order_id": "O00221", "event_type": "complaint", "created_at": "2025/02/08", "severity": "high", "status": "open"}
+{"ticket_id": "T00216", "order_id": "O00331", "event_type": "troca", "created_at": "2025-10-10 10:00:00", "severity": "medium", "status": "closed"}
+{"ticket_id": "T00217", "order_id": "O00371", "event_type": "delay", "created_at": "2025/04/25", "severity": "low", "status": "open"}
+{"ticket_id": "T00218", "order_id": "O00140", "event_type": "refund", "created_at": "2025/10/01", "severity": "medium", "status": "open"}
+{"ticket_id": "T00219", "order_id": "O00329", "event_type": "delay", "created_at": "2025-04-01 04:00:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00220", "order_id": "O00191", "event_type": "troca", "created_at": "2025/06/01", "severity": "low", "status": "Open"}
+{"ticket_id": "T00221", "order_id": "O00276", "event_type": "Delay", "created_at": "11/08/2025 17:00", "severity": null, "status": null, "metadata": {"channel": "phone", "sla_hours": 24}}
+{"ticket_id": "T00222", "order_id": "O00005", "event_type": "delay", "created_at": "2026-01-26 18:00:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00223", "order_id": "O00135", "event_type": "refund", "created_at": "03/10/2025 01:00", "severity": "high", "status": "Open"}
+{"ticket_id": "T00224", "order_id": "o00385", "event_type": "Delay", "created_at": "2026-03-05 21:00:00", "severity": "low", "status": null}
+{"ticket_id": "T00225", "order_id": "O00091", "event_type": "refund", "created_at": "15/09/2025 15:00", "severity": null, "status": null}
+{"ticket_id": "T00226", "order_id": "O00126", "event_type": null, "created_at": "10/06/2025 16:00", "severity": "High", "status": null}
+{"ticket_id": "T00227", "order_id": "O00145", "event_type": null, "created_at": "24/07/2025 23:00", "severity": "low", "status": null}
+{"ticket_id": "T00228", "order_id": "O00371", "event_type": "Delay", "created_at": "2025/04/22", "severity": "medium", "status": "open"}
+{"ticket_id": "T00229", "order_id": "O00313", "event_type": "Delay", "created_at": "2026-01-02 13:00:00", "severity": "medium", "status": "open"}
+{"ticket_id": "T00230", "order_id": "O00099", "event_type": "Delay", "created_at": "2025/01/09", "severity": "low", "status": "open"}
+{"ticket_id": "T00231", "order_id": "O00146", "event_type": "Delay", "created_at": "2025/11/10", "severity": "medium", "status": "open"}
+{"ticket_id": "T00232", "order_id": "O00145", "event_type": "troca", "created_at": "2025/09/06", "severity": "low", "status": "open", "customer_code": "C9999"}
+{"ticket_id": "T00233", "order_id": "O00315", "event_type": "complaint", "created_at": "2025/03/20", "severity": null, "status": "Open"}
+{"ticket_id": "T00234", "order_id": "O00295", "event_type": "troca", "created_at": "2025/09/27", "severity": "medium", "status": "closed"}
+{"ticket_id": "T00235", "order_id": "O00057", "event_type": "troca", "created_at": "2025-10-09 00:00:00", "severity": "medium", "status": null}
+{"ticket_id": "T00236", "order_id": "O00217", "event_type": "complaint", "created_at": "2025/01/11", "severity": "medium", "status": "open"}
+{"ticket_id": "T00237", "order_id": "O00032", "event_type": "delay", "created_at": "2025/06/28", "severity": "medium", "status": "Open"}
+{"ticket_id": "T00238", "order_id": "o00100", "event_type": "refund", "created_at": "2025-07-22 06:00:00", "severity": "low", "status": "Open", "metadata": {"channel": "portal", "sla_hours": 4}}
+{"ticket_id": "T00239", "order_id": "O00168", "event_type": null, "created_at": "2025-04-02 08:00:00", "severity": null, "status": "closed"}
+{"ticket_id": "T00240", "order_id": "O00282", "event_type": "troca", "created_at": "2025/01/01", "severity": "medium", "status": null}
+{"ticket_id": "T00241", "order_id": "O00316", "event_type": "Delay", "created_at": "2025/12/04", "severity": "low", "status": "open"}
+{"ticket_id": "T00242", "order_id": "O00231", "event_type": "complaint", "created_at": "01/10/2025 22:00", "severity": "medium", "status": null}
+{"ticket_id": "T00243", "order_id": "O00388", "event_type": "complaint", "created_at": "2025-05-05 07:00:00", "severity": null, "status": "closed"}
+{"ticket_id": "T00244", "order_id": "O00257", "event_type": "refund", "created_at": "2025-07-17 21:00:00", "severity": "medium", "status": null}
+{"ticket_id": "T00245", "order_id": "O00209", "event_type": "troca", "created_at": "12/02/2025 16:00", "severity": "low", "status": null}
+{"ticket_id": "T00246", "order_id": "O00091", "event_type": "complaint", "created_at": "2025-08-21 03:00:00", "severity": "High", "status": "Open"}
+{"ticket_id": "T00247", "order_id": "O00398", "event_type": "delay", "created_at": "2025-01-01 02:00:00", "severity": "medium", "status": "closed"}
+{"ticket_id": "T00248", "order_id": "O00103", "event_type": "Delay", "created_at": "2026-01-03 19:00:00", "severity": "low", "status": "closed"}
+{"ticket_id": "T00249", "order_id": "O00179", "event_type": "Delay", "created_at": "2025/08/25", "severity": "low", "status": null}
+{"ticket_id": "T00250", "order_id": "O00167", "event_type": "troca", "created_at": "2026/01/27", "severity": "low", "status": null}
+{"ticket_id": "T00251", "order_id": "O00247", "event_type": "complaint", "created_at": "2025/07/17", "severity": "low", "status": null}
+{"ticket_id": "T00252", "order_id": "o00387", "event_type": "troca", "created_at": "2026/01/06", "severity": "medium", "status": "open"}
+{"ticket_id": "T00253", "order_id": "O00326", "event_type": "refund", "created_at": "2025/09/25", "severity": "high", "status": "closed"}
+{"ticket_id": "T00254", "order_id": "O00395", "event_type": "delay", "created_at": "15/11/2025 04:00", "severity": null, "status": null}
+{"ticket_id": "T00255", "order_id": "O00210", "event_type": "delay", "created_at": "2025/08/24", "severity": "low", "status": "Open", "metadata": {"channel": "portal", "sla_hours": null}}
+{"ticket_id": "T00256", "order_id": "O00297", "event_type": null, "created_at": "2025-10-01 20:00:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00257", "order_id": "O00180", "event_type": "troca", "created_at": "2025/09/12", "severity": "low", "status": "closed"}
+{"ticket_id": "T00258", "order_id": "O00360", "event_type": "complaint", "created_at": "2025/07/12", "severity": "High", "status": null}
+{"ticket_id": "T00259", "order_id": "O00392", "event_type": "Delay", "created_at": "2025/11/10", "severity": "low", "status": "closed"}
+{"ticket_id": "T00260", "order_id": "O00166", "event_type": "complaint", "created_at": "2025/04/15", "severity": null, "status": "closed"}
+{"ticket_id": "T00261", "order_id": "O00176", "event_type": "cancel_request", "created_at": "25/04/2025 19:00", "severity": "High", "status": "open", "customer_code": "C9999"}
+{"ticket_id": "T00262", "order_id": "O00378", "event_type": "cancel_request", "created_at": "2025/03/11", "severity": "low", "status": null}
+{"ticket_id": "T00263", "order_id": "O00138", "event_type": "troca", "created_at": "2025/09/01", "severity": "High", "status": null}
+{"ticket_id": "T00264", "order_id": "O00303", "event_type": "cancel_request", "created_at": "2025/02/02", "severity": null, "status": null}
+{"ticket_id": "T00265", "order_id": "O00249", "event_type": "delay", "created_at": "2025/10/15", "severity": null, "status": null}
+{"ticket_id": "T00266", "order_id": "o00158", "event_type": "troca", "created_at": "15/12/2025 15:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00267", "order_id": "O00352", "event_type": "refund", "created_at": "20/10/2025 09:00", "severity": "high", "status": "open"}
+{"ticket_id": "T00268", "order_id": "O00261", "event_type": "Delay", "created_at": "2026/02/15", "severity": "high", "status": "open"}
+{"ticket_id": "T00269", "order_id": "O00211", "event_type": "complaint", "created_at": "05/05/2025 09:00", "severity": null, "status": "Open"}
+{"ticket_id": "T00270", "order_id": "O00106", "event_type": "complaint", "created_at": "2026/01/11", "severity": null, "status": "open"}

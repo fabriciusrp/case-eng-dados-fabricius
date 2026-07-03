@@ -1,0 +1,9 @@
+regional_code|regional_name|state|manager_name|active_flag
+N|Norte|AM|Mariana Lopes|1
+NE|Nordeste|BA|Carlos Lima|1
+SE|Sudeste|SP|Ana Costa|1
+S|Sul|SC|Rafael Souza|1
+CO|Centro-Oeste|GO|Paulo Teixeira|1
+sul|Região Sul|Sta Catarina|Rafael Souza|1
+SE|Sudeste|sao paulo|Ana Costa|1
+XX|||Sem gestor|0
