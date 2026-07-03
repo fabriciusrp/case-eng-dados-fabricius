@@ -33,7 +33,7 @@ depende de ação externa · ❌ não atendido.
 
 | Item | Status | Evidência |
 |---|---|---|
-| **6.1** Solução no Databricks (notebooks representando o fluxo completo) | ⚠️ | Notebooks prontos e validados localmente contra dados reais; falta rodar no workspace Databricks real (ação do usuário, sem acesso a um workspace neste ambiente) |
+| **6.1** Solução no Databricks (notebooks representando o fluxo completo) | ✅ | Executado de ponta a ponta em workspace Databricks real (Serverless): os 3 notebooks rodaram em sequência sem erro, com contagens de linha idênticas à validação local em todas as 9 tabelas Bronze, 9 Silver e 10 Gold |
 | **6.2** Transformações com Python/PySpark, podendo combinar com Spark SQL | ✅ | PySpark predominante; Spark SQL usado pontualmente (geração de `dim_data` via `sequence()`) |
 | **6.3** Modelagem analítica final (granularidade, entidades, relacionamentos, premissas) | ✅ | `docs/02` §4 + `docs/03` §1 |
 | **6.4** Qualidade de dados (investigação, tratamento, decisões documentadas e justificadas) | ✅ | `docs/01` completo, com "achado → impacto → tratamento" para as 9 fontes + 8 padrões transversais |
@@ -52,17 +52,46 @@ depende de ação externa · ❌ não atendido.
 
 ---
 
-## Gaps identificados (ação necessária do seu lado)
+## Gaps identificados (histórico — todos resolvidos)
 
 1. ~~Publicação no GitHub~~ — **concluído.** Repositório público em
-   https://github.com/fabriciusrp/case-eng-dados-fabricius, branch `main`, 26 arquivos.
-2. **Execução real no Databricks Community Edition (recomendado, seção 6.1).** Os notebooks
-   foram validados linha a linha com PySpark + Delta Lake reais neste ambiente local (não é
-   simulação), mas o case pede especificamente o Databricks Community Edition como ambiente
-   de execução. Recomendo importar os 3 notebooks e os arquivos de `sources/` lá e rodar em
-   sequência antes da entrega final, para confirmar que não há nenhuma particularidade do
-   workspace (versão de runtime, permissões de schema) que exija ajuste. O `README.md` já tem
-   o passo a passo.
+   https://github.com/fabriciusrp/case-eng-dados-fabricius, branch `main`.
+2. ~~Execução real no Databricks~~ — **concluído.** Os 3 notebooks rodaram de ponta a ponta
+   em workspace Databricks real (Serverless compute), com contagens de linha idênticas à
+   validação local em todas as tabelas Bronze/Silver/Gold. Ver seção "Achados da execução real
+   no Databricks" abaixo para as diferenças de ambiente encontradas e corrigidas nesse processo.
+
+**Nenhum item do checklist permanece pendente.**
+
+## Achados da execução real no Databricks (diferenças de ambiente vs. validação local)
+
+Rodar a pipeline pela primeira vez num workspace Databricks real revelou 5 diferenças de
+ambiente que a validação local (PySpark 3.5.3, modo não-ANSI) não expôs. Todas corrigidas e
+re-validadas localmente antes de cada nova publicação — ver histórico de commits no GitHub:
+
+1. **DBFS root desabilitado.** Workspaces atuais vêm com o DBFS público desabilitado por
+   padrão. Fontes migradas para **Workspace Files** (`/Workspace/...`), caminho atualmente
+   recomendado pela própria Databricks.
+2. **`utils.py` importado como notebook, não como arquivo.** Databricks não permite `import`
+   de um objeto NOTEBOOK via Python — precisa ser um objeto FILE. Resolvido subindo
+   `utils.py` com `--format RAW` em vez de `--format SOURCE`.
+3. **`__file__` não existe em notebooks Databricks.** O bootstrap de `sys.path` foi reescrito
+   para derivar o diretório do notebook via `dbutils.notebook...notebookPath()` (com
+   fallback para `__file__` na execução local).
+4. **`openpyxl` não vem pré-instalado no runtime Serverless.** Adicionado `%pip install
+   openpyxl` no notebook Bronze.
+5. **Modo ANSI ligado por padrão no Databricks Serverless.** `to_timestamp()` e `cast(...)`
+   lançam exceção em vez de retornar `null` para entrada inválida/malformada — diferente do
+   padrão não-ANSI usado na validação local. Corrigido com `try_to_timestamp()` (datas) e
+   validação por regex antes do `cast` (números), em vez de depender do comportamento
+   "silencioso" que só existe fora do modo ANSI. Também foi necessário reiniciar o
+   interpretador Python (`dbutils.library.restartPython()`) no início de cada notebook para
+   evitar reaproveitar em cache uma versão antiga do módulo `utils` entre execuções na mesma
+   sessão anexada.
+
+Esses achados foram propositalmente mantidos aqui como registro — mostram que a validação
+local, embora valiosa, não substitui totalmente testar no ambiente de execução real, e
+documentam exatamente que tipo de divergência de ambiente apareceu e como foi resolvida.
 
 Fora esse último ponto — que depende da sua conta do Databricks e de rodar a pipeline lá —,
 **todos os demais itens do PDF estão atendidos**.

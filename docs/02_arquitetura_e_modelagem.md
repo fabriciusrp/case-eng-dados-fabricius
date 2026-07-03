@@ -150,16 +150,21 @@ fact_pedidos_itens ── dim_produto
 - **Sem `spark-excel`** → leitura de `.xlsx` via `pandas` + `spark.createDataFrame`, conforme
   nota da seção 2.
 
-## 6. Ambiente de desenvolvimento local (nota de transparência)
+## 6. Ambiente de desenvolvimento e validação (nota de transparência)
 
-O ambiente local usado para desenvolver e **validar a lógica** de tratamento não tem JVM/Java
-instalado, o que impede rodar PySpark de verdade fora do Databricks. Para não travar o
-desenvolvimento:
+O ambiente local usado para desenvolver não tinha JVM/Java/Spark instalado inicialmente. Em
+vez de prototipar só com pandas, foi montado um ambiente PySpark + Delta Lake real localmente
+(JDK 17, Hadoop `winutils` para Windows, venv Python 3.11 — PySpark 3.5.x não suporta Python
+3.14) especificamente para validar a lógica de transformação com Spark de verdade, não uma
+aproximação. Essa validação local (42 testes automatizados, ver `tests/`) rodou sob o Spark
+padrão (modo não-ANSI).
 
-1. As regras de qualidade e a lógica de transformação foram **prototipadas e validadas com
-   pandas** sobre os dados reais (mesmo resultado lógico que Spark produziria, dado o volume
-   pequeno dos arquivos — poucas centenas/milhares de linhas).
-2. O código de entrega (notebooks) é escrito diretamente em **PySpark + Spark SQL no formato
-   Databricks**, que é o ambiente real de execução pedido pelo case.
-3. Essa decisão está documentada aqui para transparência — os notebooks devem ser validados
-   por execução real no Databricks Community Edition antes da entrega final.
+A pipeline foi **também executada de ponta a ponta em um workspace Databricks real**
+(compute Serverless), com todas as 28 tabelas (9 Bronze + 9 Silver + 10 Gold) resultando nas
+mesmas contagens de linha da validação local. Essa execução real revelou 5 diferenças de
+ambiente que a validação local não expunha — a mais relevante sendo que o Databricks
+Serverless roda em **modo ANSI por padrão**, no qual `to_timestamp()`/`cast()` lançam exceção
+em entrada inválida em vez de retornar `null` silenciosamente. Todas as diferenças foram
+corrigidas no código (não contornadas manualmente) e re-validadas localmente antes de cada
+nova publicação. Lista completa em `docs/06_checklist_conformidade.md`, seção "Achados da
+execução real no Databricks".

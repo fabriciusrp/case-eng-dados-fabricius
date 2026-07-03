@@ -25,7 +25,8 @@ consumo direto por um Analista de BI, usando **PySpark** e **Delta Lake** no
 - **Resumo executivo (1-2 páginas):** `docs/04_resumo_executivo.md` — também disponível em
   formato de slides em `docs/05_apresentacao.md`.
 - **Conformidade com o case:** `docs/06_checklist_conformidade.md` audita cada exigência do
-  PDF do case contra o que foi entregue, com gaps pendentes explicitados.
+  PDF do case contra o que foi entregue — todos os itens atendidos, incluindo execução real
+  validada em workspace Databricks (Serverless).
 
 ## Estrutura do repositório
 
